@@ -1,0 +1,10 @@
+action (individual) {
+  description (__DESCRIPTION__)
+  collect {
+    input (individualinput) {
+      type (individualInput)
+      min (Optional) max (One)
+    }
+  }
+  output (individualOutStructure)
+}

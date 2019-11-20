@@ -1,0 +1,7 @@
+structure (accidentStructure) {
+  description (__DESCRIPTION__)
+  property (accidentCategory) {
+    type (category)
+    min (Required) max (Many)
+  }
+}

@@ -1,0 +1,10 @@
+action (card) {
+  description (__DESCRIPTION__)
+  collect {
+    input (cardinput) {
+      type (cardInput)
+      min (Optional) max (One)
+    }
+  }
+  output (cardOutStructure)
+}

@@ -1,0 +1,12 @@
+structure (cardOutStructure) {
+  description (__DESCRIPTION__)
+  property (credit) {
+    type (creditStructure)
+    min (Optional) max (One)
+  }
+
+  property (debit) {
+    type (debitStructure)
+    min (Optional) max (One)
+  }
+}

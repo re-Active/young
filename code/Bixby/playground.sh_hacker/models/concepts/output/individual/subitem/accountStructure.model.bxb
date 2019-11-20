@@ -1,0 +1,7 @@
+structure (accountStructure) {
+  description (__DESCRIPTION__)
+  property (accountCategory) {
+    type (category)
+    min (Required) max (Many)
+  }
+}

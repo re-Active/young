@@ -1,0 +1,7 @@
+structure (internetStructure) {
+  description (__DESCRIPTION__)
+  property (internetCategory) {
+    type (category)
+    min (Required) max (Many)
+  }
+}

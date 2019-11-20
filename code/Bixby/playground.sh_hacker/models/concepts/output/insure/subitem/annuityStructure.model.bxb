@@ -1,0 +1,7 @@
+structure (annuityStructure) {
+  description (__DESCRIPTION__)
+  property (annuityCategory) {
+    type (category)
+    min (Required) max (Many)
+  }
+}

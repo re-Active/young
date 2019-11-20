@@ -1,0 +1,16 @@
+structure (bankOutStructure) {
+  description (__DESCRIPTION__)
+  property (installment) {
+    type (installmentStructure)
+    min (Required) max (One)
+  }
+  property (regualr) {
+  type (regularStructure)
+  min (Required) max (One)
+  }
+  property (time) {
+  type (timeStructure)
+  min (Required) max (One)
+  }
+
+}

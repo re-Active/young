@@ -1,0 +1,12 @@
+structure (individualOutStructure) {
+  description (__DESCRIPTION__)
+  property (account) {
+    type (accountStructure)
+    min (Optional) max (One)
+  }
+
+  property (cardBalance) {
+    type (cardBalanceStructure)
+    min (Required) max (Many)
+  }
+}

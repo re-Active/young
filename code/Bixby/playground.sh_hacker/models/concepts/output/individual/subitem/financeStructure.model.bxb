@@ -1,0 +1,7 @@
+structure (financeStructure) {
+  description (__DESCRIPTION__)
+  property (financeCategory) {
+    type (category)
+    min (Required) max (Many)
+  }
+}

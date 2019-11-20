@@ -1,0 +1,28 @@
+endpoints {
+  action-endpoints {
+    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+    action-endpoint (bank) {
+      accepted-inputs (bankinput)
+      local-endpoint (Bank.js)
+    }
+    action-endpoint (card) {
+      accepted-inputs (cardinput)
+      local-endpoint (Card.js)
+    }
+    action-endpoint (individual) {
+      accepted-inputs (individualinput)
+      local-endpoint (Individual.js)
+    }
+    action-endpoint (bank) {
+      accepted-inputs (bankinput)
+      local-endpoint (Bank.js)
+    } 
+
+    // action-endpoint (__ACTION_NAME__) {
+    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+    //   remote-endpoint (__ENDPOINT_URL__) {
+    //     method (__HTTP_METHOD_USED__)
+    //   }
+    // }
+  }
+}
