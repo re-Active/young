@@ -1,5 +1,16 @@
 module.exports.function = function bank (bankinput) {
+  const installment = {
+    installCategory:"installCategory"
+  }
+  const regular = {
+  regularCategory:"regularCategory"
+  }
+  const time = {
+  timeCategory:"timeCategory"
+  }
   return {
-    test: "test"
+    installment: installment,
+    regular: regular,
+    time: time
   }
 }

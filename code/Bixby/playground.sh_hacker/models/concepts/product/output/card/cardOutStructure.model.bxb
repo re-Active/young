@@ -9,4 +9,9 @@ structure (cardOutStructure) {
     type (debitStructure)
     min (Optional) max (One)
   }
-}
+
+property (cardmiddle) {
+  type (cardMiddle)
+  min (Required) max (One)
+  }
+} 
