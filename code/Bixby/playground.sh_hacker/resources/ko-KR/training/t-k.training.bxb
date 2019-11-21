@@ -1,0 +1,5 @@
+train (t-kf1612tklcypmyrxwaq66lyoh) {
+  utterance ("[g:insureOutStructure] (보험)[v:insureInput]")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574377254960)
+}

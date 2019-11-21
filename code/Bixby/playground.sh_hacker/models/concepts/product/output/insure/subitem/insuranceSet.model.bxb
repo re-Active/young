@@ -1,18 +1,18 @@
-structure (insuranceSet) {
+structure (insureSet) {
   description (__DESCRIPTION__)
-  property (accident) {
+  property (category) {
     type (category)
     min (Required) max (One)
   }
-    property (annuity) {
+    property (name) {
     type (name)
     min (Required) max (One)
   }
-    property (internet) {
+    property (fee) {
     type (fee)
     min (Required) max (One)
   }
-    property (life) {
+    property (description) {
     type (description)
     min (Required) max (One)
   }

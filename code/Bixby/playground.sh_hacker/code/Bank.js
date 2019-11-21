@@ -2,9 +2,11 @@ module.exports.function = function bank (bankinput) {
   const db = require('./db.js')
   const console = require('console')
   const http = require('http')
-  const url = 'https://express-mongo-api123.herokuapp.com/test'
+  const url = 'https://shh-mongodb.herokuapp.com/simplefin'
+  const bank = http.getUrl(url, {format: 'json'})[1].item.deposit
+  // console.log(bank)
  
-  const bank = db.data["예금"]
+  // const bank = db.data["예금"]
 
   let bankset = []
   for(idx in bank){
@@ -14,7 +16,7 @@ module.exports.function = function bank (bankinput) {
     }
   }
 
-  console.log(bankset)
+  // console.log(bankset)
 
   return {
     bankset: bankset
