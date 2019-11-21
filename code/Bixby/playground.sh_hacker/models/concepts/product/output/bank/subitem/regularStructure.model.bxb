@@ -1,7 +1,0 @@
-structure (regularStructure) {
-  description (__DESCRIPTION__)
-  property (regularCategory) {
-    type (category)
-    min (Required) max (Many)
-  }
-}

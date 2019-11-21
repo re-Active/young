@@ -1,0 +1,3 @@
+integer (fee) {
+  description (__DESCRIPTION__)
+}

@@ -1,20 +1,7 @@
 structure (insureOutStructure) {
   description (__DESCRIPTION__)
-  property (accident) {
-    type (accidentStructure)
+  property (insuranceset) {
+    type (insuranceSet)
     min (Required) max (Many)
   }
-    property (annuity) {
-    type (annuityStructure)
-    min (Required) max (Many)
-  }
-    property (internet) {
-    type (internetStructure)
-    min (Required) max (Many)
-  }
-    property (life) {
-    type (lifeStructure)
-    min (Required) max (Many)
-  }
-
 }

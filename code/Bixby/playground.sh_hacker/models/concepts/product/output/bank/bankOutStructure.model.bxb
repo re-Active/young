@@ -1,16 +1,7 @@
 structure (bankOutStructure) {
   description (__DESCRIPTION__)
-  property (installment) {
-    type (installmentStructure)
-    min (Required) max (One)
+  property (bankset) {
+    type (bankSet)
+    min (Required) max (Many)
   }
-  property (regular) {
-  type (regularStructure)
-  min (Required) max (One)
-  }
-  property (time) {
-  type (timeStructure)
-  min (Required) max (One)
-  }
-
 }

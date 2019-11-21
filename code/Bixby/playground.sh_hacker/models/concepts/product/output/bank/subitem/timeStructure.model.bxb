@@ -1,7 +1,0 @@
-structure (timeStructure) {
-  description (__DESCRIPTION__)
-  property (timeCategory) {
-    type (category)
-    min (Required) max (Many)
-  }
-}

@@ -1,7 +1,0 @@
-structure (lifeStructure) {
-  description (__DESCRIPTION__)
-  property (lifeCategory) {
-    type (category)
-    min (Required) max (Many)
-  }
-}

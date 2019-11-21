@@ -1,7 +1,0 @@
-structure (installmentStructure) {
-  description (__DESCRIPTION__)
-  property (installCategory) {
-    type (category)
-    min (Required) max (Many)
-  }
-}

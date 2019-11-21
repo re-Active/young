@@ -1,7 +1,0 @@
-structure (creditStructure) {
-  description (__DESCRIPTION__)
-  property (creditCategory) {
-    type (category)
-    min (Required) max (Many)
-  }
-}

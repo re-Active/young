@@ -1,7 +1,0 @@
-structure (debitStructure) {
-  description (__DESCRIPTION__)
-  property (debitCategory) {
-    type (category)
-    min (Required) max (Many)
-  }
-}
