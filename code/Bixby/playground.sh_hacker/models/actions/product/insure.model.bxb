@@ -1,4 +1,4 @@
-action (insure) {
+action (Insure) {
   description (__DESCRIPTION__)
   collect {
     input (insureinput) {

@@ -1,8 +1,8 @@
-action (Card) {
+action (CardInfo) {
   description (__DESCRIPTION__)
   collect {
-    input (cardinput) {
-      type (cardInput)
+    input (cardinfoinput) {
+      type (cardInfoInput)
       min (Optional) max (One)
     }
   }

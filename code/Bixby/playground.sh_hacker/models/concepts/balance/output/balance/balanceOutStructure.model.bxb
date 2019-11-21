@@ -1,0 +1,7 @@
+structure (balanceOutStructure) {
+  description (__DESCRIPTION__)
+  property (balanceset){
+    type(balanceSet)
+    min (Required) max (Many)
+  }
+}

@@ -1,4 +1,4 @@
-action (bank) {
+action (Bank) {
   description (__DESCRIPTION__)
   collect {
     input (bankinput) {

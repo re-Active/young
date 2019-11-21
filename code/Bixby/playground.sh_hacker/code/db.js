@@ -1,4 +1,4 @@
-const body = {
+module.exports.data = {
   보험: {
     "정기/종신보험": {
       "신한 굿라이프종신보험": {

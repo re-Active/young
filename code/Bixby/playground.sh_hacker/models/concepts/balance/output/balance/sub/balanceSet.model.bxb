@@ -1,0 +1,19 @@
+structure (balanceSet) {
+  description (__DESCRIPTION__)
+  property (category) {
+    type (category)
+    min (Optional) max (One)
+  }
+  property (name) {
+    type (name)
+    min (Optional) max (One)
+  }
+  property (balance) {
+    type (balance)
+    min (Optional) max (One)
+  }
+  property (accountno) {
+    type (accountNo)
+    min (Optional) max (One)
+  }
+}

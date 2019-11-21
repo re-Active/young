@@ -1,0 +1,3 @@
+text (cardNo) {
+  description (__DESCRIPTION__)
+}
