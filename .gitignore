@@ -1,5 +1,2 @@
-*.docx
-*.txt
 *.DS_Store
-API명세서/
 node_modules/
