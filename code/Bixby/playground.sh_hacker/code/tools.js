@@ -29,26 +29,26 @@ module.exports.carduse = function (category, cardno) {
 
   // const data = http.postUrl(url + target, params, { format: 'json' })
   // let cardbalanceset = []
-  // for (i in data) {
+  // for (i in data.dataBody.grp001) {
   //   temp = {
-  //     carduse: data[i].aprvamt,
-  //     cardusefor: data[i].retlname
+  //     aprvamt: data[i].aprvamt,
+  //     retlno: data[i].retlno
   //   }
   //   cardbalanceset.push(temp)
   // }
 
   cardbalanceset = [
     {
-      carduse: '20,000',
-      cardusefor: '카카오'
+      "aprvamt": '20,000',
+      "retlno": '카카오'
     },
     {
-      carduse: '50,000',
-      cardusefor: '다음'
+      "aprvamt": '50,000',
+      "retlno": '다음'
     },
     {
-      carduse: '90,000',
-      cardusefor: '라인'
+      "aprvamt": '90,000',
+      "retlno": '라인'
     }
   ]
 

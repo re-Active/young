@@ -1,10 +1,22 @@
 result-view{
-	match : bankOutStructure (this)	
+	match : bankOutStructure (this)
 	render{
 		layout-macro (bank-summary) {
 			param (bankset) {
 				expression (bankset)
 			}
 		}
+	}
+	conversation-drivers {
+		conversation-driver {
+			template ("#{value(this.bankset.category)} 정보")
+		}
+		// 	conversation-driver {
+		// 		template ("#{value(this.bankset.)} 아이템")
+		// 	}
+		// 	conversation-driver {
+		// 		template ("#{value(this.insuretotalset)} 룬")
+		// 	}
+		// }
 	}
 }

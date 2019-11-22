@@ -1,0 +1,5 @@
+train (t-r0ktc85xh5sqz6nt4xan14f1u) {
+  utterance ("[g:myInsureOutStructure] (내 보험 정보)[v:myInsureInput]")
+  plan (Y2Bm0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZVDCa5JnXkFpCQMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1574454920243)
+}

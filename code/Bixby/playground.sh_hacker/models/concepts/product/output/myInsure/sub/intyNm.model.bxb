@@ -1,3 +1,3 @@
-text (retlno) {
+text (intyNm) {
   description (__DESCRIPTION__)
 }

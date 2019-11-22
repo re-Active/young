@@ -1,34 +1,28 @@
 result-view{
-  match: totalOutStructure (this)
-
-  render{
-    layout-macro (finance-Info) {
-      param (banktotalset) {
-        expression (banktotalset)
-      }
-      param (cardtotalset) {
-        expression (cardtotalset)
-      }
-      param (insuretotalset) {
-        expression (insuretotalset)
-      }
-    }
-  }
-  // conversation-drivers {
-  //   conversation-driver {
-  //     template ("#{value(this.name)} 정보")
-  //   }
-  //   conversation-driver {
-  //     template ("#{value(this.name)} 아이템")
-  //   }
-  //   conversation-driver {
-  //     template ("#{value(this.name)} 룬")
-  //   }
-  //   conversation-driver {
-  //     template ("#{value(this.name)} 스킬트리")
-  //   }
-  //   conversation-driver {
-  //     template ("#{value(this.name)} 카운터픽")
-  //   }
-  // }
+	match: totalOutStructure (this)
+	
+	render{
+		layout-macro (finance-Info) {
+			param (banktotalset) {
+				expression (banktotalset)
+			}
+			param (cardtotalset) {
+				expression (cardtotalset)
+			}
+			param (insuretotalset) {
+				expression (insuretotalset)
+			}
+		}
+	}
+	conversation-drivers {
+		conversation-driver {
+			template ("#{value(this.banktotalset)} 정보")
+		}
+		conversation-driver {
+			template ("#{value(this.cardtotalset)} 아이템")
+		}
+		conversation-driver {
+			template ("#{value(this.insuretotalset)} 룬")
+		}
+	}
 }

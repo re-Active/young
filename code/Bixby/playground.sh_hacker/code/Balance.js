@@ -18,20 +18,26 @@ module.exports.function = function balance(balanceinput) {
   }
   let data
   try {
-    data = http.postUrl(bankUrl + target, params, { format: 'json' })
+    data = http.postUrl(bankUrl + target, params, { format: 'json' }).dataBody["예금내역"]
   } catch(e) {
     console.log(e)
   } finally {
     data = db
   }
 
+  const catdict = {
+    "1": "정기예금",
+    "2": "정기적금",
+    "3": "보통예금"
+  }
+
   balanceset = []
   for(i in data){
     temp = {
-      category: data[i].category,
-      name: data[i].name,
-      balance: data[i].balance,
-      accountno: data[i].accountno
+      category: catdict[data[i]["예금종류"]],
+      name: data[i]["과목명"],
+      balance: data[i]["잔액"],
+      accountno: data[i]["계좌번호"]
     }
 
     balanceset.push(temp)

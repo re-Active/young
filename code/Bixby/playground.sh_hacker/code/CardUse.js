@@ -1,4 +1,4 @@
-module.exports.function = function cardBalance (category, cardno) {
+module.exports.function = function cardUse (category, cardno) {
   const console = require('console')
   const tools = require('tools')
   const data = tools.carduse(category, cardno).cardbalanceset

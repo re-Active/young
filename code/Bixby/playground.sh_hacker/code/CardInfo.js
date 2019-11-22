@@ -14,7 +14,7 @@ module.exports.function = function cardinfo(cardinfoinput) {
 
   let data
   try {
-    data = http.postUrl(cardUrl + target, params, { format: 'json' })
+    data = http.postUrl(cardUrl + target, params, { format: 'json' }).dataBody.grp001
   } catch (e) {
     console.log(e)
   } finally {
@@ -24,9 +24,9 @@ module.exports.function = function cardinfo(cardinfoinput) {
   cardinfoset = []
   for(i in data){
     temp = {
-      category: data[i].category,
-      name: data[i].name,
-      cardno: data[i].cardno
+      category: data[i]["cardgubun"],
+      name: data[i]["cardname"],
+      cardno: data[i]["cardNo"]
     }
 
     cardinfoset.push(temp)

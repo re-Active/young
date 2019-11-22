@@ -1,11 +1,11 @@
 structure (cardUseSet) {
   description (__DESCRIPTION__)
-  property (carduse) {
-    type (cardUse)
+  property (aprvamt) {
+    type (aprvamt)
     min (Optional) max (One)
   }
-  property (cardusefor) {
-    type (cardUseFor)
+  property (retlno) {
+    type (retlno)
     min (Optional) max (One)
   }
 }
