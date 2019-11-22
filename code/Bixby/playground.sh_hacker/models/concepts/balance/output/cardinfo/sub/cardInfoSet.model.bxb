@@ -12,4 +12,5 @@ structure (cardInfoSet) {
     type (cardNo)
     min (Optional) max (One)
   }
+
 }

@@ -6,5 +6,5 @@ action (CardInfo) {
       min (Optional) max (One)
     }
   }
-  output (cardOutStructure)
+  output (cardInfoOutStructure)
 }

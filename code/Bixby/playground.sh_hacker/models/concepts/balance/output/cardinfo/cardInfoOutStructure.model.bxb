@@ -1,15 +1,8 @@
 structure (cardInfoOutStructure) {
   description (__DESCRIPTION__)
-  property (category) {
-    type (category)
-    min (Optional) max (One)
-  }
-  property (name) {
-    type (name)
-    min (Optional) max (One)
-  }
-  property (cardno) {
-    type (cardNo)
-    min (Optional) max (One)
+  property (cardinfoset){
+    type (cardInfoSet)
+    min (Optional) max (Many)
   }
 }
+ 
