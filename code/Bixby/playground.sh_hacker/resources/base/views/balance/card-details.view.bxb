@@ -1,0 +1,10 @@
+result-view{
+	match : cardInfoOutStructure (this)
+	render{
+		layout-macro (cardinfo-details) {
+			param (cardinfoset){
+				expression (cardinfoset)
+			}
+		}
+	}
+}

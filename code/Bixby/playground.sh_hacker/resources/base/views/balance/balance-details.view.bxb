@@ -1,0 +1,10 @@
+result-view{
+	match : balanceOutStructure (this)
+	render{
+		layout-macro (balance-details) {
+			param (balanceset){
+				expression (balanceset)
+			}
+		}
+	}
+}

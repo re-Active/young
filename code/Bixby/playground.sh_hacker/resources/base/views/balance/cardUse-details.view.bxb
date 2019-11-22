@@ -1,0 +1,10 @@
+result-view{
+	match : cardUseOutStructure (this)
+	render{
+		layout-macro (carduse-details) {
+			param (carduseset){
+				expression (carduseset)
+			}
+		}
+	}
+}

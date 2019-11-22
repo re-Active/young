@@ -1,0 +1,38 @@
+layout-macro-def (carduse-details){
+	params{
+		param (carduseset){
+			type (cardUseSet)
+			min (Required)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (carduseset){
+					as (person) {
+						title-card {
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(person.carduse)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(person.cardusefor)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

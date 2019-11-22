@@ -1,0 +1,45 @@
+layout-macro-def (balance-details){
+	params{
+		param (balanceset){
+			type (balanceSet)
+			min (Required)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (balanceset){
+					as (person) {
+						title-card {
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(person.category)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(person.balance)}")
+										}
+									}
+								}
+								slot3 {
+									paragraph {
+										value {
+											template ("#{value(person.accountno)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
