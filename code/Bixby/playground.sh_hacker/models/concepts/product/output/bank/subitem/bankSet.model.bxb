@@ -2,19 +2,11 @@ structure (bankSet) {
   description (__DESCRIPTION__)
   property (category) {
     type (category)
-    min (Required) max (One)
+    min (Optional) max (Many)
   }
-  property (name) {
-    type (name)
-    min (Required) max (One)
-  }
-  property (rate){
-    type(rate)
-    min (Required) max(One)
-  }
-  property (description) {
-  type (description)
-  min (Required) max (One)
+  property (banksubset) {
+    type (bankSubSet)
+    min (Optional) max (Many)
   }
 
 }

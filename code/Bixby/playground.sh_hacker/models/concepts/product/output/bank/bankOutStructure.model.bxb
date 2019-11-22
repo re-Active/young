@@ -2,6 +2,6 @@ structure (bankOutStructure) {
   description (__DESCRIPTION__)
   property (bankset) {
     type (bankSet)
-    min (Required) max (Many)
+    min (Optional) max (Many)
   }
 }

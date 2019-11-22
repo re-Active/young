@@ -2,21 +2,10 @@ structure (cardSet) {
   description (__DESCRIPTION__)
   property (category) {
     type (category)
-    min (Optional) max (One)
+    min (Optional) max (Many)
   }
-
-  property (name) {
-    type (name)
-    min (Optional) max (One)
+  property (cardsubset) {
+    type (cardSubSet)
+    min (Optional) max (Many)
   }
-
-  property (due) {
-    type (due)
-    min (Optional) max (One)
-  }
-
-  property (description) {
-    type (description)
-    min (Required) max (One)
-    }
 } 

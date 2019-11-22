@@ -4,17 +4,9 @@ structure (insureSet) {
     type (category)
     min (Required) max (One)
   }
-    property (name) {
-    type (name)
-    min (Required) max (One)
-  }
-    property (fee) {
-    type (fee)
-    min (Required) max (One)
-  }
-    property (description) {
-    type (description)
-    min (Required) max (One)
+  property (insuresubset) {
+  type (insureSubSet)
+  min (Required) max (Many)
   }
 
 }
