@@ -1,0 +1,7 @@
+structure (cardBalanceOutStructure) {
+  description (__DESCRIPTION__)
+  property (cardbalanceset) {
+    type (cardBalanceSet)
+    min (Optional) max (Many)
+  }
+}

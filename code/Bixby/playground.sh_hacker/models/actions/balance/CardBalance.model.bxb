@@ -1,0 +1,10 @@
+action (CardBalance) {
+  description (__DESCRIPTION__)
+  collect {
+    input (carduseinput) {
+      type (cardUseInput)
+      min (Optional) max (One)
+    }
+  }
+  output (cardBalanceOutStructure)
+}

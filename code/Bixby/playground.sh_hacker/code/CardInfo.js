@@ -3,7 +3,7 @@ module.exports.function = function cardinfo(cardinfoinput) {
   const console = require('console')
   const http = require('http')
   const target = '/v1/mycard/searchavailablecard'
-  const cardUrl = 'http://10.3.17.61:8080'
+  const cardUrl = 'http://10.3.17.61:8081'
   const params = {
     "dataHeader": {
     },

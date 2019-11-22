@@ -1,0 +1,20 @@
+structure (cardBalanceSet) {
+  description (__DESCRIPTION__)
+  property (category) {
+    type (category)
+    min (Optional) max (One)
+  }
+  property (name) {
+    type (name)
+    min (Optional) max (One)
+  }
+  property (cardno) {
+    type (cardNo)
+    min (Optional) max (One)
+  }
+
+  property (cardbalance) {
+    type (cardBalance)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,7 @@
+structure (cardUseOutStructure) {
+  description (__DESCRIPTION__)
+  property (carduseset) {
+    type (cardUseSet)
+    min (Optional) max (Many)
+  }
+}

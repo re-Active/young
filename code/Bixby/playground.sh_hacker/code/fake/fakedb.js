@@ -31,3 +31,16 @@ module.exports.card = [
     cardno: '456-789-123',
   },
 ]
+
+module.exports.carduse = [
+  {
+    category: '체크카드',
+    name: 'fakeCheck',
+    cardno: '123-456-789',
+  },
+  {
+    category: '신용카드',
+    name: 'fakeCredit',
+    cardno: '456-789-123',
+  },
+]

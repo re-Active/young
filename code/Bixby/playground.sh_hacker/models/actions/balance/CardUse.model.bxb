@@ -1,0 +1,14 @@
+action (CardUse) {
+  description (__DESCRIPTION__)
+  collect {
+    input (category) {
+      type (category)
+      min (Optional) max (One)
+    }
+    input(cardno) {
+      type (cardNo)
+      min (Optional) max (One)
+    }
+  }
+  output (cardUseOutStructure)
+}
