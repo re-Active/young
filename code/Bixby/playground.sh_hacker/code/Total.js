@@ -97,9 +97,5 @@ module.exports.function = function total (totalinput) {
   }
 
   console.log(res)
-  return {
-    banktotalset: banktotalset,
-    cardtotalset: cardtotalset,
-    insuretotalset: insuretotalset
-  }
+  return res
 }

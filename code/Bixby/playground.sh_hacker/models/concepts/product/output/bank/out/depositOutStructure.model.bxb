@@ -1,0 +1,7 @@
+structure (depositOutStructure) {
+  description (__DESCRIPTION__)
+  property (depositset) {
+    type (bankSubSet)
+    min (Optional) max (Many)
+  }
+}

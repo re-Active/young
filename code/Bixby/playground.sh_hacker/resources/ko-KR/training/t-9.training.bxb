@@ -1,0 +1,5 @@
+train (t-999d2119qc1mo6bqx8jse6n9e) {
+  utterance ("[g:installmentOutStructure] (정기적금)[v:bankInput]")
+  plan (Y2Bm0CnISaxML8ovzUvRK86Iz0hMzk4t0svMKy5JzMnJTc0r8S8tCS4pKk0uKS1KZVDAqtoToZpBDquKpMS8bM+8gtISBiYGRiBmAJKMDCDABMEA)
+  last-modified (1574409187379)
+}

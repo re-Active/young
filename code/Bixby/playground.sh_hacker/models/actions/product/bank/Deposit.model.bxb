@@ -1,0 +1,10 @@
+action (Deposit) {
+  description (__DESCRIPTION__)
+  collect {
+    input (depositinput) {
+      type (bankInput)
+      min (Optional) max (One)
+    }
+  }
+  output (depositOutStructure)
+}

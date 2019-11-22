@@ -1,0 +1,7 @@
+structure (installmentOutStructure) {
+  description (__DESCRIPTION__)
+  property (installmentset) {
+    type (bankSubSet)
+    min (Optional) max (Many)
+  }
+}

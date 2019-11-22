@@ -1,0 +1,10 @@
+action (Time) {
+  description (__DESCRIPTION__)
+  collect {
+    input (timeinput) {
+      type (bankInput)
+      min (Optional) max (One)
+    }
+  }
+  output (timeOutStructure)
+}

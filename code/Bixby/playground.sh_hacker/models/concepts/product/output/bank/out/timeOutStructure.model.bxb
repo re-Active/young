@@ -1,0 +1,7 @@
+structure (timeOutStructure) {
+  description (__DESCRIPTION__)
+  property (timeset) {
+    type (bankSubSet)
+    min (Optional) max (Many)
+  }
+}

@@ -1,10 +1,27 @@
 endpoints {
   action-endpoints {
     // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+    // Bank
     action-endpoint (Bank) {
       accepted-inputs (bankinput)
-      local-endpoint (Bank.js)
+      local-endpoint (bank/Bank.js)
     }
+    action-endpoint (Deposit) {
+      accepted-inputs (depositinput)
+      local-endpoint (bank/Deposit.js)
+    }
+    action-endpoint (Installment) {
+      accepted-inputs (installmentinput)
+      local-endpoint (bank/Installment.js)
+    }
+    action-endpoint (Time) {
+      accepted-inputs (timeinput)
+      local-endpoint (bank/Time.js)
+    }
+
+
+
+
     action-endpoint (Card) {
       accepted-inputs (cardinput)
       local-endpoint (Card.js)

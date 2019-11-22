@@ -1,0 +1,10 @@
+action (Installment) {
+  description (__DESCRIPTION__)
+  collect {
+    input (installmentinput) {
+      type (bankInput)
+      min (Optional) max (One)
+    }
+  }
+  output (installmentOutStructure)
+}
