@@ -1,53 +1,79 @@
 endpoints {
-  action-endpoints {
-    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
-    // Bank
-    action-endpoint (Bank) {
-      accepted-inputs (bankinput)
-      local-endpoint (bank/Bank.js)
-    }
-    action-endpoint (Deposit) {
-      accepted-inputs (depositinput)
-      local-endpoint (bank/Deposit.js)
-    }
-    action-endpoint (Installment) {
-      accepted-inputs (installmentinput)
-      local-endpoint (bank/Installment.js)
-    }
-    action-endpoint (Time) {
-      accepted-inputs (timeinput)
-      local-endpoint (bank/Time.js)
-    }
-
-
-
-
-    action-endpoint (Card) {
-      accepted-inputs (cardinput)
-      local-endpoint (Card.js)
-    }
-    action-endpoint (Insure) {
-      accepted-inputs (insureinput)
-      local-endpoint (Insure.js)
-    }
-    action-endpoint (Total) {
-      accepted-inputs (totalinput)
-      local-endpoint (Total.js)
-    } 
-    action-endpoint (Balance) {
-      accepted-inputs (balanceinput)
-      local-endpoint (Balance.js)
-    } 
-    action-endpoint (CardInfo) {
-      accepted-inputs (cardinfoinput)
-      local-endpoint (CardInfo.js)
-    } 
-
-    // action-endpoint (__ACTION_NAME__) {
-    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-    //   remote-endpoint (__ENDPOINT_URL__) {
-    //     method (__HTTP_METHOD_USED__)
-    //   }
-    // }
-  }
+	action-endpoints {
+		// Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+		// Bank
+		action-endpoint (Bank) {
+			accepted-inputs (bankinput)
+			local-endpoint (bank/Bank.js)
+		}
+		action-endpoint (Deposit) {
+			accepted-inputs (depositinput)
+			local-endpoint (bank/Deposit.js)
+		}
+		action-endpoint (Installment) {
+			accepted-inputs (installmentinput)
+			local-endpoint (bank/Installment.js)
+		}
+		action-endpoint (Time) {
+			accepted-inputs (timeinput)
+			local-endpoint (bank/Time.js)
+		}
+		
+		
+		action-endpoint (Card) {
+			accepted-inputs (cardinput)
+			local-endpoint (card/Card.js)
+		}
+		action-endpoint (Check) {
+			accepted-inputs (checkinput)
+			local-endpoint (card/Check.js)
+		}
+		action-endpoint (Credit) {
+			accepted-inputs (creditinput)
+			local-endpoint (card/Credit.js)
+		}
+		
+		
+		
+		
+		action-endpoint (Insure) {
+			accepted-inputs (insureinput)
+			local-endpoint (insure/Insure.js)
+		}
+		action-endpoint (Accident) {
+			accepted-inputs (accidentinput)
+			local-endpoint (insure/Accident.js)
+		}
+		action-endpoint (Internet) {
+			accepted-inputs (internetinput)
+			local-endpoint (insure/Internet.js)
+		}
+		action-endpoint (Pension) {
+			accepted-inputs (pensioninput)
+			local-endpoint (insure/Pension.js)
+		}
+		action-endpoint (Regular) {
+			accepted-inputs (regularinput)
+			local-endpoint (insure/Regular.js)
+		}
+		action-endpoint (Total) {
+			accepted-inputs (totalinput)
+			local-endpoint (Total.js)
+		}
+		action-endpoint (Balance) {
+			accepted-inputs (balanceinput)
+			local-endpoint (Balance.js)
+		}
+		action-endpoint (CardInfo) {
+			accepted-inputs (cardinfoinput)
+			local-endpoint (CardInfo.js)
+		}
+		
+		// action-endpoint (__ACTION_NAME__) {
+		//   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+		//   remote-endpoint (__ENDPOINT_URL__) {
+		//     method (__HTTP_METHOD_USED__)
+		//   }
+		// }
+	}
 }

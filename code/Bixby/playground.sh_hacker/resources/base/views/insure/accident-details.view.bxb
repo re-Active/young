@@ -1,0 +1,10 @@
+result-view{
+	match : accidentOutStructure (this)
+	render{
+		layout-macro (accident-details) {
+			param (accidentset){
+				expression (accidentset)
+			}
+		}
+	}
+}

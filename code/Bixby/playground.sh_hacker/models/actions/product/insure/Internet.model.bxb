@@ -1,0 +1,10 @@
+action (Internet) {
+  description (__DESCRIPTION__)
+  collect {
+    input (internetinput) {
+      type (insureInput)
+      min (Optional) max (One)
+    }
+  }
+  output (internetOutStructure)
+}

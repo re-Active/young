@@ -1,0 +1,106 @@
+layout-macro-def (finance-Info) {
+	params{
+		param(banktotalset){
+			type (bankTotalSet)
+			min (Required)
+			max (Many)
+		}
+		param(cardtotalset){
+			type (cardTotalSet)
+			min (Required)
+			max (Many)
+		}
+		param(insuretotalset){
+			type (insureTotalSet)
+			min (Required)
+			max (Many)
+		}
+	}
+	content {
+		section {
+			content {
+				cell-card {
+					on-click{
+						intent{
+							goal: Bank
+							value: $expr(banktotalset)
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(banktotalset.category)}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Insure
+							value: $expr(insuretotalset)
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(insuretotalset.category)}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Card
+							value: $expr(cardtotalset)
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(cardtotalset.category)}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

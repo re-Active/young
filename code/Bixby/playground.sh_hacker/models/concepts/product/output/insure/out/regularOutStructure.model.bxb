@@ -1,0 +1,7 @@
+structure (regularOutStructure) {
+  description (__DESCRIPTION__)
+  property (regularset) {
+    type (insureSubSet)
+    min (Optional) max (Many)
+  }
+}

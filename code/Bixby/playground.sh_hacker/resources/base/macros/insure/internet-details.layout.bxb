@@ -1,0 +1,45 @@
+layout-macro-def (internet-details){
+	params{
+		param (internetset){
+			type (insureSubSet)
+			min (Optional)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (internetset){
+					as (internet) {
+						title-card {
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(internet.name)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(internet.fee)}")
+										}
+									}
+								}
+								slot3 {
+									paragraph {
+										value {
+											template ("#{value(internet.description)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

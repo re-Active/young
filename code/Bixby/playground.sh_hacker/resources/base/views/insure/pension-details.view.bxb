@@ -1,0 +1,10 @@
+result-view{
+	match : pensionOutStructure (this)
+	render{
+		layout-macro (pension-details) {
+			param (pensionset){
+				expression (pensionset)
+			}
+		}
+	}
+}

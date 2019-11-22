@@ -1,0 +1,10 @@
+action (Accident) {
+  description (__DESCRIPTION__)
+  collect {
+    input (accidentinput) {
+      type (insureInput)
+      min (Optional) max (One)
+    }
+  }
+  output (accidentOutStructure)
+}

@@ -1,0 +1,10 @@
+result-view{
+	match : cardOutStructure (this)	
+	render{
+		layout-macro (card-summary) {
+			param (cardset) {
+				expression (cardset)
+			}
+		}
+	}
+}

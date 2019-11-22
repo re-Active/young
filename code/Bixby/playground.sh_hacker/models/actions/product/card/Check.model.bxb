@@ -1,0 +1,10 @@
+action (Check) {
+  description (__DESCRIPTION__)
+  collect {
+    input (checkinput) {
+      type (cardInput)
+      min (Optional) max (One)
+    }
+  }
+  output (checkOutStructure)
+}

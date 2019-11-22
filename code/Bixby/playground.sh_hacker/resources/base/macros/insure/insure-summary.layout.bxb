@@ -1,0 +1,122 @@
+layout-macro-def (insure-summary){
+	params{
+		param (insureset){
+			type (insureSet)
+			min (Required)
+		}
+	}
+	content{
+		section{
+			content{
+				cell-card {
+					on-click{
+						intent{
+							goal: Regular
+							value: $expr(insureset.category[0])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(insureset.category[0])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Pension
+							value: $expr(insureset.category[1])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(insureset.category[1])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Accident
+							value: $expr(insureset.category[2])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(insureset.category[2])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Internet
+							value: $expr(insureset.category[3])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(insureset.category[3])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

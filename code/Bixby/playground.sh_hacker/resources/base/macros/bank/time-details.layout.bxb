@@ -1,0 +1,45 @@
+layout-macro-def (time-details){
+	params{
+		param (timeset){
+			type (bankSubSet)
+			min (Optional)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (timeset){
+					as (time) {
+						title-card {
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(time.name)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(time.rate)}")
+										}
+									}
+								}
+								slot3 {
+									paragraph {
+										value {
+											template ("#{value(time.description)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

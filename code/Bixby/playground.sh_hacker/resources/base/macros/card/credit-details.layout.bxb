@@ -1,0 +1,45 @@
+layout-macro-def (credit-details){
+	params{
+		param (creditset){
+			type (cardSubSet)
+			min (Optional)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (creditset){
+					as (credit) {
+						title-card {
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(credit.name)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(credit.due)}")
+										}
+									}
+								}
+								slot3 {
+									paragraph {
+										value {
+											template ("#{value(credit.description)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

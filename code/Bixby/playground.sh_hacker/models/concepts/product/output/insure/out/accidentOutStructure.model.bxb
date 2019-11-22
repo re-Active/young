@@ -1,0 +1,7 @@
+structure (accidentOutStructure) {
+  description (__DESCRIPTION__)
+  property (accidentset) {
+    type (insureSubSet)
+    min (Optional) max (Many)
+  }
+}

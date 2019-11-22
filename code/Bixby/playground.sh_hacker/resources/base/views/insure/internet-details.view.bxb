@@ -1,0 +1,10 @@
+result-view{
+	match : internetOutStructure (this)
+	render{
+		layout-macro (internet-details) {
+			param (internetset){
+				expression (internetset)
+			}
+		}
+	}
+}

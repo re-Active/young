@@ -1,0 +1,7 @@
+structure (pensionOutStructure) {
+  description (__DESCRIPTION__)
+  property (pensionset) {
+    type (insureSubSet)
+    min (Optional) max (Many)
+  }
+}

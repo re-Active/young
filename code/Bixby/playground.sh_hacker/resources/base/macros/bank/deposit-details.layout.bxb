@@ -1,0 +1,45 @@
+layout-macro-def (deposit-details){
+	params{
+		param (depositset){
+			type (bankSubSet)
+			min (Optional)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (depositset){
+					as (deposit) {
+						title-card {
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(deposit.name)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(deposit.rate)}")
+										}
+									}
+								}
+								slot3 {
+									paragraph {
+										value {
+											template ("#{value(deposit.description)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

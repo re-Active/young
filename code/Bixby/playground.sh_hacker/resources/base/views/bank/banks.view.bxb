@@ -1,0 +1,10 @@
+result-view{
+	match : bankOutStructure (this)	
+	render{
+		layout-macro (bank-summary) {
+			param (bankset) {
+				expression (bankset)
+			}
+		}
+	}
+}

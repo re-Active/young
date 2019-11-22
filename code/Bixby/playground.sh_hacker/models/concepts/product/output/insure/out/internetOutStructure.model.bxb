@@ -1,0 +1,7 @@
+structure (internetOutStructure) {
+  description (__DESCRIPTION__)
+  property (internetset) {
+    type (insureSubSet)
+    min (Optional) max (Many)
+  }
+}

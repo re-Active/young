@@ -1,0 +1,10 @@
+action (Regular) {
+  description (__DESCRIPTION__)
+  collect {
+    input (regularinput) {
+      type (insureInput)
+      min (Optional) max (One)
+    }
+  }
+  output (regularOutStructure)
+}

@@ -1,0 +1,10 @@
+result-view{
+	match : checkOutStructure (this)
+	render{
+		layout-macro (check-details) {
+			param (checkset){
+				expression (checkset)
+			}
+		}
+	}
+}

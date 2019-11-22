@@ -1,0 +1,68 @@
+layout-macro-def (card-summary){
+	params{
+		param (cardset){
+			type (cardSet)
+			min (Required)
+		}
+	}
+	content{
+		section{
+			content{
+				cell-card {
+					on-click{
+						intent{
+							goal: Check
+							value: $expr(cardset.category[0])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(cardset.category[0])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Credit
+							value: $expr(cardset.category[1])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(cardset.category[1])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

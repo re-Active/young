@@ -1,0 +1,7 @@
+structure (checkOutStructure) {
+  description (__DESCRIPTION__)
+  property (checkset) {
+    type (cardSubSet)
+    min (Optional) max (Many)
+  }
+}

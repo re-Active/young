@@ -1,0 +1,10 @@
+result-view{
+	match : timeOutStructure (this)
+	render{
+		layout-macro (time-details) {
+			param (timeset){
+				expression (timeset)
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+action (Credit) {
+  description (__DESCRIPTION__)
+  collect {
+    input (creditinput) {
+      type (cardInput)
+      min (Optional) max (One)
+    }
+  }
+  output (creditOutStructure)
+}

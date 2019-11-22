@@ -1,0 +1,10 @@
+result-view{
+	match : regularOutStructure (this)
+	render{
+		layout-macro (regular-details) {
+			param (regularset){
+				expression (regularset)
+			}
+		}
+	}
+}

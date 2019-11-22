@@ -1,0 +1,95 @@
+layout-macro-def (bank-summary){
+	params{
+		param (bankset){
+			type (bankSet)
+			min (Required)
+		}
+	}
+	content{
+		section{
+			content{
+				cell-card {
+					on-click{
+						intent{
+							goal: Installment
+							value: $expr(bankset.category[0])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(bankset.category[0])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Deposit
+							value: $expr(bankset.category[2])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(bankset.category[2])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+				cell-card {
+					on-click{
+						intent{
+							goal: Time
+							value: $expr(bankset.category[1])
+						}
+					}
+					slot1 {
+						image {
+							url {
+								template ("icon.png")
+							}
+							shape (Circle)
+						}
+					}
+					slot2 {
+						content {
+							order (SecondaryPrimary)
+							primary {
+								template ("#{value(bankset.category[1])}")
+							}
+							secondary {
+								template ("")
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

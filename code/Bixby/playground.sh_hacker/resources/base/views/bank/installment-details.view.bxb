@@ -1,0 +1,10 @@
+result-view{
+	match : installmentOutStructure (this)
+	render{
+		layout-macro (installment-details) {
+			param (installmentset){
+				expression (installmentset)
+			}
+		}
+	}
+}

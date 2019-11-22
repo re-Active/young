@@ -1,0 +1,45 @@
+layout-macro-def (installment-details){
+	params{
+		param (installmentset){
+			type (bankSubSet)
+			min (Optional)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (installmentset){
+					as (installment) {
+						title-card {
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(installment.name)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(installment.rate)}")
+										}
+									}
+								}
+								slot3 {
+									paragraph {
+										value {
+											template ("#{value(installment.description)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

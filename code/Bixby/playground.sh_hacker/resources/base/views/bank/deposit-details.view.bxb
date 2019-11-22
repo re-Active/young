@@ -1,0 +1,10 @@
+result-view{
+	match : depositOutStructure (this)
+	render{
+		layout-macro (deposit-details) {
+			param (depositset){
+				expression (depositset)
+			}
+		}
+	}
+}

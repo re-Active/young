@@ -1,0 +1,8 @@
+structure (creditOutStructure) {
+  description (__DESCRIPTION__)
+  property (creditset) {
+    type (cardSubSet)
+    min (Optional) max (Many)
+  }
+}
+

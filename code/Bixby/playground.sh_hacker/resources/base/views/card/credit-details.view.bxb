@@ -1,0 +1,10 @@
+result-view{
+	match : creditOutStructure (this)
+	render{
+		layout-macro (credit-details) {
+			param (creditset){
+				expression (creditset)
+			}
+		}
+	}
+}
