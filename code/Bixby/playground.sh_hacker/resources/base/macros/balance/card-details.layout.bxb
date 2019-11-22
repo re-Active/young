@@ -1,0 +1,44 @@
+layout-macro-def (cardinfo-details){
+	params{
+		param (cardinfoset){
+			type (cardInfoSet)
+			min (Required)
+			max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (cardinfoset){
+					as (person) {
+						title-card {
+							on-click{
+								intent{
+									goal: CardUse
+									value: $expr(person.category)
+								}
+							}
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value {
+											template ("#{value(person.category)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(person.cardno)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
