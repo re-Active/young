@@ -1,0 +1,15 @@
+structure (totalOutStructure) {
+  description (__DESCRIPTION__)
+  property (banktotalset) {
+    type (bankTotalSet)
+    min (Optional) max (One)
+  }
+  property (cardtotalset) {
+    type (cardTotalSet)
+    min (Optional) max (One)
+  }
+  property (insuretotalset) {
+    type (insureTotalSet)
+    min (Optional) max (One)
+  }
+}

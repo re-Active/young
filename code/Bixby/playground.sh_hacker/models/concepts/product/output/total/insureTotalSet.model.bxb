@@ -1,0 +1,11 @@
+structure (insureTotalSet) {
+  description (__DESCRIPTION__)
+  property (category) {
+    type (category)
+    min (Optional) max (One)
+  }
+  property (insureset) {
+    type (insureSet)
+    min (Optional) max (Many)
+  }
+}

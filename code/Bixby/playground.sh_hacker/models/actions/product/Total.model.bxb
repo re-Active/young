@@ -1,0 +1,10 @@
+action (Total) {
+  description (__DESCRIPTION__)
+  collect {
+    input (totalinput) {
+      type (totalInput)
+      min (Optional) max (One)
+    }
+  }
+  output (totalOutStructure)
+}

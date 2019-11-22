@@ -13,6 +13,10 @@ endpoints {
       accepted-inputs (insureinput)
       local-endpoint (Insure.js)
     }
+    action-endpoint (Total) {
+      accepted-inputs (totalinput)
+      local-endpoint (Total.js)
+    } 
     action-endpoint (Balance) {
       accepted-inputs (balanceinput)
       local-endpoint (Balance.js)

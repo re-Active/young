@@ -1,0 +1,11 @@
+structure (cardTotalSet) {
+  description (__DESCRIPTION__)
+  property (category) {
+    type (category)
+    min (Optional) max (One)
+  }
+  property (cardset) {
+    type (cardSet)
+    min (Optional) max (Many)
+  }
+}

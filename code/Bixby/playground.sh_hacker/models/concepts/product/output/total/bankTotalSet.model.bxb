@@ -1,0 +1,11 @@
+structure (bankTotalSet) {
+  description (__DESCRIPTION__)
+  property (category) {
+    type (category)
+    min (Optional) max (One)
+  }
+  property (bankset) {
+    type (bankSet)
+    min (Optional) max (Many)
+  }
+}
