@@ -28,15 +28,13 @@ layout-macro-def (myBank-details){
 	content{
 		section{
 			content{
-<<<<<<< HEAD
+				
 				attribution-link{
 					label{
 						template ("click")
 					}
 					url ("https://bank.shinhan.com")
 				}
-=======
->>>>>>> 70d169f04ae1092a1854b865a00708bd0ff03491
 				if (exists(deposit.accountno)){
 					hbox{
 						content{
@@ -80,31 +78,20 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
-							hbox{
-								content{
-									vbox{
-										halign (Start)
-										content{
-											single-line{
-												image{
-													shape(Circle)
-													style(Title_S)
-													url("#{value(deposi.comments.url)}")
-												}
-											}
-										}
-									}
-									vbox{
-										halign (End)
-										content{
-											text{
-												value("#{value(deposi.comments.comment)}")
-												style(Title_S)
+							title-card{
+								title-area {
+									halign (Start)
+									slot2 {
+										paragraph{
+											value{
+												template("#{value(deposi.comments.comment)}")
 											}
 										}
 									}
 								}
 							}
+							divider
+							spacer
 						}
 					}
 				}
@@ -124,6 +111,7 @@ layout-macro-def (myBank-details){
 							}
 						}
 					}
+					
 					for-each (fund) {
 						as (fun) {
 							title-card{
@@ -146,40 +134,30 @@ layout-macro-def (myBank-details){
 									slot3 {
 										paragraph{
 											value{
-												template("이율 : #{value(fun.rate)}")
+												template("잔액 : #{value(fun.balance)}")
 											}
 										}
 									}
 								}
 							}
-							hbox{
-								content{
-									vbox{
-										halign (Start)
-										content{
-											single-line{
-												image{
-													shape(Circle)
-													style(Title_S)
-													url("#{value(fun.comments.url)}")
-												}
-											}
-										}
-									}
-									vbox{
-										halign (End)
-										content{
-											text{
-												value("#{value(fun.comments.comment)}")
-												style(Title_S)
+							title-card{
+								title-area {
+									halign (Start)
+									slot2 {
+										paragraph{
+											value{
+												template("#{value(fun.comments.comment)}")
 											}
 										}
 									}
 								}
 							}
+							divider
+							spacer
 						}
 					}
 				}
+				
 				if (exists(isa.accountno)){
 					hbox{
 						content{
@@ -223,31 +201,20 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
-							hbox{
-								content{
-									vbox{
-										halign (Start)
-										content{
-											single-line{
-												image{
-													shape(Circle)
-													style(Title_S)
-													url("#{value(is.comments.url)}")
-												}
-											}
-										}
-									}
-									vbox{
-										halign (End)
-										content{
-											text{
-												value("#{value(is.comments.comment)}")
-												style(Title_S)
+							title-card{
+								title-area {
+									halign (Start)
+									slot2 {
+										paragraph{
+											value{
+												template("#{value(is.comments.comment)}")
 											}
 										}
 									}
 								}
 							}
+							divider
+							spacer
 						}
 					}
 				}
@@ -294,31 +261,20 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
-							hbox{
-								content{
-									vbox{
-										halign (Start)
-										content{
-											single-line{
-												image{
-													shape(Circle)
-													style(Title_S)
-													url("#{value(loa.comments.url)}")
-												}
-											}
-										}
-									}
-									vbox{
-										halign (End)
-										content{
-											text{
-												value("#{value(loa.comments.comment)}")
-												style(Title_S)
+							title-card{
+								title-area {
+									halign (Start)
+									slot2 {
+										paragraph{
+											value{
+												template("#{value(loa.comments.comment)}")
 											}
 										}
 									}
 								}
 							}
+							divider
+							spacer
 						}
 					}
 				}
@@ -366,31 +322,20 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
-							hbox{
-								content{
-									vbox{
-										halign (Start)
-										content{
-											single-line{
-												image{
-													shape(Circle)
-													style(Title_S)
-													url("#{value(trus.comments.url)}")
-												}
-											}
-										}
-									}
-									vbox{
-										halign (End)
-										content{
-											text{
-												value("#{value(trus.comments.comment)}")
-												style(Title_S)
+							title-card{
+								title-area {
+									halign (Start)
+									slot2 {
+										paragraph{
+											value{
+												template("#{value(trus.comments.comment)}")
 											}
 										}
 									}
 								}
 							}
+							divider
+							spacer
 						}
 					}
 				}
@@ -405,3 +350,4 @@ layout-macro-def (myBank-details){
 		}
 	}
 }
+

@@ -11,24 +11,32 @@ layout-macro-def (internet-details){
 			content{
 				for-each (internetset){
 					as (internet) {
+						divider
+						hbox{
+							content{
+								vbox{
+									halign (Center)
+									valign (Middle)
+									content{
+										text{
+											value("#{value(internet.name)}")
+											style(Title_M)
+										}
+									}
+								}
+							}
+						}
 						title-card {
 							title-area {
 								halign (Start)
 								slot1 {
 									text {
 										value {
-											template ("#{value(internet.name)}")
-										}
-									}
-								}
-								slot2 {
-									paragraph {
-										value {
 											template ("#{value(internet.fee)}")
 										}
 									}
 								}
-								slot3 {
+								slot2 {
 									paragraph {
 										value {
 											template ("#{value(internet.description)}")

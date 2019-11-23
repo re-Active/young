@@ -6,29 +6,37 @@ layout-macro-def (pension-details){
 			max (Many)
 		}
 	}
-	content{
+content{
 		section{
 			content{
 				for-each (pensionset){
 					as (pension) {
+						divider
+						hbox{
+							content{
+								vbox{
+									halign (Center)
+									valign (Middle)
+									content{
+										text{
+											value("#{value(pension.name)}")
+											style(Title_M)
+										}
+									}
+								}
+							}
+						}
 						title-card {
 							title-area {
 								halign (Start)
 								slot1 {
 									text {
 										value {
-											template ("#{value(pension.name)}")
-										}
-									}
-								}
-								slot2 {
-									paragraph {
-										value {
 											template ("#{value(pension.fee)}")
 										}
 									}
 								}
-								slot3 {
+								slot2 {
 									paragraph {
 										value {
 											template ("#{value(pension.description)}")

@@ -31,7 +31,7 @@ layout-macro-def (deposit-details){
 								slot3 {
 									paragraph {
 										value {
-											template ("#{value(deposit.comments.url)}")
+											template ("#{value(deposit.description)}")
 										}
 									}
 								}

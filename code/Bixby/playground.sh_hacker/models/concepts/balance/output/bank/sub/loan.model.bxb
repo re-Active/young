@@ -11,4 +11,8 @@ structure (loan) {
     type (balance)
     min (Optional) max (One)
   }
+  property (comments) {
+    type (comments)
+    min (Optional) max (One)
+  }
 }

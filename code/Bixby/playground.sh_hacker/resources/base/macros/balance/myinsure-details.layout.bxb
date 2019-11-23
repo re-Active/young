@@ -1,0 +1,61 @@
+layout-macro-def (myInsure-details){
+	params{
+		param (myinsureset){
+			type(myInsureSet)
+			min (Optional) max (Many)
+		}
+	}
+	content{
+		section{
+			content{
+				for-each (myinsureset) {
+					as (myins) {
+						divider
+						spacer
+						title-card{
+							title-area {
+								halign (Start)
+								slot1 {
+									text{
+										value{
+											template("보험명 : #{value(myins.intynm)}")
+										}
+									}
+								}
+								slot2 {
+									paragraph{
+										value{
+											template("주계약 보험금 : #{value(myins.eprtinsam)} // 보험료: #{value(myins.apaicmltinpfe)}")
+										}
+									}
+								}
+							}
+						}
+						
+						title-card{
+							title-area {
+								halign (Start)
+								// slot1 {
+								// 	single-line {
+								// 		image{
+								// 			shape(Circle)
+								// 			style(Title_S)
+								// 			url("#{value(myins.crisis.url)}")
+								// 		}
+								// 	}
+								// }
+								slot2 {
+									paragraph{
+										value{
+											template("#{value(myins.crisis.comment)}")
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

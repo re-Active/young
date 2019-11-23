@@ -1,0 +1,24 @@
+result-view{
+	match : myInsureOutStructure (this)
+	render{
+		
+		layout-macro (myInsure-details){
+			
+			param (myinsureset){
+				expression (myinsureset)
+			}
+			// param (eprtinsam){
+			// 	expression (eprtinsam)
+			// }
+			// param (intynm){
+			// 	expression (intynm)
+			// }
+			// param (crisis){
+			// 	expression (crisis)
+			// }
+			// param (description){
+			// 	expression (description)
+			// }
+		}
+	}
+}

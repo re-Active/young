@@ -1,9 +1,0 @@
-dialog (Result) {
-	match : balanceOutStructure (this)
-	if(exists(recommend)){
-		template ("#{recommend}")
-	}
-	else{
-		template ("정보입니다.")
-	}
-}

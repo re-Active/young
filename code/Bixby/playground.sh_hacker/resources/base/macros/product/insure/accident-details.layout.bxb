@@ -11,20 +11,21 @@ layout-macro-def (accident-details){
 			content{
 				for-each (accidentset){
 					as (accident) {
+						divider
 						hbox{
-						content{
-							vbox{
-								halign (Center)
-								valign (Middle)
-								content{
-									text{
-										value("#{value(accident.name)}")
-										style(Title_M)
+							content{
+								vbox{
+									halign (Center)
+									valign (Middle)
+									content{
+										text{
+											value("#{value(accident.name)}")
+											style(Title_M)
+										}
 									}
 								}
 							}
 						}
-					}
 						title-card {
 							title-area {
 								halign (Start)

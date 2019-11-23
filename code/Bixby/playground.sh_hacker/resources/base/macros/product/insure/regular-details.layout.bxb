@@ -11,24 +11,32 @@ layout-macro-def (regular-details){
 			content{
 				for-each (regularset){
 					as (regular) {
+						divider
+						hbox{
+							content{
+								vbox{
+									halign (Center)
+									valign (Middle)
+									content{
+										text{
+											value("#{value(regular.name)}")
+											style(Title_M)
+										}
+									}
+								}
+							}
+						}
 						title-card {
 							title-area {
 								halign (Start)
 								slot1 {
 									text {
 										value {
-											template ("#{value(regular.name)}")
-										}
-									}
-								}
-								slot2 {
-									paragraph {
-										value {
 											template ("#{value(regular.fee)}")
 										}
 									}
 								}
-								slot3 {
+								slot2 {
 									paragraph {
 										value {
 											template ("#{value(regular.description)}")

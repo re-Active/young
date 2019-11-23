@@ -22,11 +22,11 @@ module.exports.bank = {
     },
   ],
   isa: [
-    {
-      accountno: '',
-      rate: '',
-      balance: ''
-    },
+    // {
+    //   accountno: '',
+    //   rate: '',
+    //   balance: ''
+    // },
   ],
   loan: [
     {
@@ -40,11 +40,11 @@ module.exports.bank = {
     },
   ],
   trust: [
-    {
-      accountno: '',
-      rate: '',
-      balance: ''
-    },
+    // {
+    //   accountno: '',
+    //   rate: '',
+    //   balance: ''
+    // },
   ]
 }
 
@@ -68,43 +68,42 @@ module.exports.cardinfo = {
     {
       name: 'fakeDebit',
       cardno: '123-456-789',
-      inc: "사용량이 3% 변화하였습니다."
+      inc: "사용량이 지난달과 비교하여 3% 변화하였습니다."
     },
     {
       name: 'fakeDebit',
       cardno: '234-456-789',
-      inc: "사용량이 -5% 변화하였습니다."
+      inc: "사용량이 지난달과 비교하여 -5% 변화하였습니다."
     },
   ],
   "credit": [
     {
       name: 'fakeCredit',
       cardno: '345-456-789',
-      inc: "사용량이 1% 변화하였습니다."
+      inc: "사용량이 지난달과 비교하여 1% 변화하였습니다."
     },
     {
       name: 'fakeCredit',
       cardno: '456-456-789',
-      inc: "사용량이 -2% 변화하였습니다."
+      inc: "사용량이 지난달과 비교하여 -2% 변화하였습니다."
     },
   ]
 }
 
-
-module.exports.myinsure = [
-  ///////////// 1 ////////////
-  {
-    apaicmltinpfe: '5',
-    eprtinsam: '1150',
-    intynm: '암보험(무배당, 해지환급금 미지급형',
-    crisis: {
-      url: '/green.png',
-      comment: '비슷한 종류의 보장 상품과 비교하였을 때 보험료 대비 보험금이 낮습니다.'
-    },
-    // crisis2: 0.3,
-    // crisis3: '',
-    description: '보험기간　만기시　피보험자（보험대상자）가　살아있을　때 기납입 주계약보험료의 ５０％ \ 보험기간　중　피보험자（보험대상자）가　암（백혈병ㆍ골수암　포함'
+module.exports.myinsure = {
+  myinsureset: [
+     {
+  apaicmltinpfe: '5',
+  eprtinsam: '1150',
+  intynm: '암보험(무배당, 해지환급금 미지급형',
+  crisis: {
+    url: '/green.png',
+    comment: '비슷한 종류의 보장 상품과 비교하였을 때 보험료 대비 보험금이 낮습니다.'
   },
+  // crisis2: 0.3,
+  // crisis3: '',
+  description: '보험기간　만기시　피보험자（보험대상자）가　살아있을　때 기납입 주계약보험료의 ５０％ \ 보험기간　중　피보험자（보험대상자）가　암（백혈병ㆍ골수암　포함'
+},
   {
     apaicmltinpfe: '80.4',
     eprtinsam: '3000',
@@ -116,7 +115,9 @@ module.exports.myinsure = [
     // crisis2: '',
     // crisis3: '',
     description: '기타피부암，　갑상선암，　제자리암，　경계성종양으로　진단확정　되었을　때 \ （암［백혈병·골수암　포함］，　기타피부암，　갑상선암，｜　백혈병·골수암　\ 제자리암　및　경계성종양　각각　최초１회에　한함'
-  },
+  }
+  ]
+}
 
   /////////// 2 /////////////
   // {
@@ -137,4 +138,4 @@ module.exports.myinsure = [
   //   // crisis3: 0.8,
   //   description: '보험기간　중　피보험자（보험대상자）가　질병　및　재해분류표에서　정하는　질병 또는　재해로　인하여　그　치료를　직접목적으로　４일이상　계속하여　입원시'
   // },
-]
+
