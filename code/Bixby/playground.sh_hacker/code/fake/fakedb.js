@@ -98,7 +98,7 @@ module.exports.myinsure = [
     eprtinsam: '1150',
     intynm: '암보험(무배당, 해지환급금 미지급형',
     crisis: {
-      url: '',
+      url: '/green.png',
       comment: '비슷한 종류의 보장 상품과 비교하였을 때 보험료 대비 보험금이 낮습니다.'
     },
     // crisis2: 0.3,
@@ -109,7 +109,10 @@ module.exports.myinsure = [
     apaicmltinpfe: '80.4',
     eprtinsam: '3000',
     intynm: '신한굿라이프종신보험(무배당,해지환급금미지급형)',
-    crisis: '비슷한 종류의 다른 상품과 비교하였을 때 보험료 대비 보험금이 높습니다.',
+    crisis: {
+      url: '/green.png',
+      comment: '비슷한 종류의 다른 상품과 비교하였을 때 보험료 대비 보험금이 높습니다.'
+    },,
     // crisis2: '',
     // crisis3: '',
     description: '기타피부암，　갑상선암，　제자리암，　경계성종양으로　진단확정　되었을　때 \ （암［백혈병·골수암　포함］，　기타피부암，　갑상선암，｜　백혈병·골수암　\ 제자리암　및　경계성종양　각각　최초１회에　한함）｜&nbsp'
