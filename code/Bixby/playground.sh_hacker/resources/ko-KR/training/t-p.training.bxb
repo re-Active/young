@@ -1,0 +1,15 @@
+train (t-pcr0g19hmngqlq9usxcomyzfp) {
+  utterance ("[g:myBankOutStructure] (나)[v:myInput]의 (통장)[v:myBankInput]")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574520692171)
+}
+train (t-pnqcqnx80jwmdx6bn96kbo3o8) {
+  utterance ("[g:bankOutStructure] 신한은행 (계좌)[v:bankInput] 추천해줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574517330949)
+}
+train (t-pnuav003wzf763r21k96x6z43) {
+  utterance ("[g:insureOutStructure] 인기 많은 (보험)[v:insureInput]이 뭐야")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525568895)
+}

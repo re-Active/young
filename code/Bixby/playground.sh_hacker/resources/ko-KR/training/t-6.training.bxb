@@ -1,0 +1,20 @@
+train (t-6mbrg4ar82age0l7oc6206xov) {
+  utterance ("[g:cardOutStructure] (카드)[v:cardInput] 추천")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514630949)
+}
+train (t-6nzkwxbt2lhvkf2gv52hl5c2b) {
+  utterance ("[g:cardInfoOutStructure] (날)[v:myInput] 위한 (카드)[v:cardInfoInput]")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL9y8tCS4pKk0uKS1KZZDFqtQZqpRBCa9JnnkFpSUMMljV5FZCZJkZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1574520403008)
+}
+train (t-6vys0oau3rxgf1s6o9j3ieffe) {
+  utterance ("[g:cardOutStructure] (카드)[v:cardInput]")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514328287)
+}
+train (t-6z9wzl8kz4qa70ie5e4nsqbhd) {
+  utterance ("[g:cardOutStructure] 요즘 좋은 (카드)[v:cardInput]가 뭐야")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574515759074)
+}

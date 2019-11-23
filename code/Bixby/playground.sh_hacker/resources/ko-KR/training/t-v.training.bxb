@@ -1,0 +1,20 @@
+train (t-v7dgg7f3ss1d07tlhkm1pbar1) {
+  utterance ("[g:cardInfoOutStructure] (내)[v:myInput]가 가지고 있는 (카드)[v:cardInfoInput] 보여줘")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL9y8tCS4pKk0uKS1KZZDFqtQZqpRBCa9JnnkFpSUMMljV5FZCZJkZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1574520742875)
+}
+train (t-vnke83sudjpc45qvt1raywqqy) {
+  utterance ("[g:cardOutStructure] 좋은 (카드)[v:cardInput] 뭐야")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514648123)
+}
+train (t-vpimtkijewp6v2g1hrajbeq0v) {
+  utterance ("[g:myBankOutStructure] (내)[v:myInput] (통장)[v:myBankInput] 보여줘")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574515464514)
+}
+train (t-vt1lc1iaxtvf45ndwtg31nkqh) {
+  utterance ("[g:myBankOutStructure] 신한은행 (내)[v:myInput] (통장)[v:myBankInput] 뭐있지")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574514116615)
+}

@@ -1,0 +1,5 @@
+train (t-xwtzs8doumo6nyl6g5nl7mbn2) {
+  utterance ("[g:myBankOutStructure] (나)[v:myInput]의 은행 (통장)[v:myBankInput] 띄워줘")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574520673175)
+}

@@ -3,7 +3,7 @@ action (Bank) {
   collect {
     input (bankinput) {
       type (bankInput)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   output (bankOutStructure)

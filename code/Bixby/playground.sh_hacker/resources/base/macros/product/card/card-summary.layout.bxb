@@ -8,6 +8,12 @@ layout-macro-def (card-summary){
 	content{
 		section{
 			content{
+				attribution-link{
+					label{
+						template ("가입하러가기")
+					}
+					url ("https://www.shinhancard.com/")
+				}
 				cell-card {
 					on-click{
 						intent{

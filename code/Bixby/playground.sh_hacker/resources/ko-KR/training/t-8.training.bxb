@@ -1,0 +1,15 @@
+train (t-8bet7rx1omztnm64nur5bd9hh) {
+  utterance ("[g:bankOutStructure] 꿀 (계좌)[v:bankInput] 추천 좀")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574515834428)
+}
+train (t-8i503u8f5c2e1qeerj9vdkbik) {
+  utterance ("[g:myBankOutStructure] (내)[v:myInput] 신한은행 (통장)[v:myBankInput] 보여줘")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574514141982)
+}
+train (t-8o3kdjmju0bcnebep2inzad5c) {
+  utterance ("[g:cardOutStructure] 신용 (카드)[v:cardInput] 추천해봐")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514750057)
+}

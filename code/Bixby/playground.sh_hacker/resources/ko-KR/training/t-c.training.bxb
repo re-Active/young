@@ -1,0 +1,5 @@
+train (t-chd659dtvxisen2twtml60tbd) {
+  utterance ("[g:cardOutStructure] 신상 (카드)[v:cardInput] 알려줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574519883189)
+}

@@ -1,5 +1,15 @@
-train (t-ybso8j10y1hkvq2odfav3uw1a) {
-  utterance ("[g:timeOutStructure] (정기예금)[v:bankInput]")
-  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ivJzE31Ly0JLikqTS4pLUplkMSqLASojEEOq1RSYl62Z15BaQkDEwMjEDMASUYGEGCCYAA=)
-  last-modified (1574408935575)
+train (t-yl90ok1zki0m3do231gi6zyxs) {
+  utterance ("[g:cardOutStructure] 혜택 많은 (카드)[v:cardInput] 알려줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514727155)
+}
+train (t-yxrxrbnl2hr68e84k4yyk08yv) {
+  utterance ("[g:cardOutStructure] (카드)[v:cardInput] 뭐로 바꾸지")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574520044556)
+}
+train (t-yyp97dpkqgrqmn9ihmakfxrj2) {
+  utterance ("[g:myBankOutStructure] (내)[v:myInput] (통장)[v:myBankInput]")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574514009361)
 }

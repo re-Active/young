@@ -1,0 +1,10 @@
+train (t-024rw3hr4w37mu9hg0b7ynka8) {
+  utterance ("[g:myBankOutStructure] (나)[v:myInput]의 (통장)[v:myBankInput] 보여줘")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574520683386)
+}
+train (t-0l606sa32hb7h4ho7hwox0218) {
+  utterance ("[g:bankOutStructure] 좋은 (계좌)[v:bankInput] 뭐야")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574513870567)
+}

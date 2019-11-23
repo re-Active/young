@@ -1,0 +1,5 @@
+train (t-n6pryczgerjhjkxqeoe1thj3g) {
+  utterance ("[g:cardOutStructure] (카드)[v:cardInput] 쓸만한게 뭐지")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514665575)
+}

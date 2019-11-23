@@ -28,12 +28,15 @@ layout-macro-def (myBank-details){
 	content{
 		section{
 			content{
+<<<<<<< HEAD
 				attribution-link{
 					label{
 						template ("click")
 					}
 					url ("https://bank.shinhan.com")
 				}
+=======
+>>>>>>> 70d169f04ae1092a1854b865a00708bd0ff03491
 				if (exists(deposit.accountno)){
 					hbox{
 						content{

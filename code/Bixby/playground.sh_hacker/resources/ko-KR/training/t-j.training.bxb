@@ -1,0 +1,5 @@
+train (t-je8l6s1922clarg65p9y9jt99) {
+  utterance ("[g:bankOutStructure] 쓸만한 (계좌)[v:bankInput] 정보 알려줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574513954668)
+}

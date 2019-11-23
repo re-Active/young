@@ -1,0 +1,10 @@
+train (t-f0h8mq9at2495o9a2myrztg15) {
+  utterance ("[g:cardOutStructure] 혜택 빵빵한 (카드)[v:cardInput] 추천 좀")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574515733152)
+}
+train (t-f1394jtsgrtkgc9x0e31ylps3) {
+  utterance ("[g:bankOutStructure] 추천할만한 (계좌)[v:bankInput] 알려줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574519982651)
+}
