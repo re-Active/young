@@ -1,3 +1,8 @@
+train (t-99x2b4j3vigwmiby6q3i22vc8) {
+  utterance ("[g:insureOutStructure] 적당한 (보험)[v:insureInput] 추천")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525081721)
+}
 train (t-9wbj2rcu3573veh2zacd4oppe) {
   utterance ("[g:cardOutStructure] 추천 (카드)[v:cardInput]")
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)

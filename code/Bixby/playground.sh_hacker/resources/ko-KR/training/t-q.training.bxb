@@ -1,0 +1,15 @@
+train (t-qdmg0au2fucu8tj8f50lok4cw) {
+  utterance ("[g:insureOutStructure] (보험)[v:insureInput] 상품 추천")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525058629)
+}
+train (t-qkmg0oy1mec9smhl4u7f2gltp) {
+  utterance ("[g:cardInfoOutStructure] (나)[v:myInput] 만의 (카드)[v:cardInfoInput]")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL9y8tCS4pKk0uKS1KZZDFqtQZqpRBCa9JnnkFpSUMMljV5FZCZJkZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1574520430229)
+}
+train (t-qqnk0qbgrn1ywahlas3m1qu9z) {
+  utterance ("[g:bankOutStructure] 좋은 (계좌)[v:bankInput] 좀 출시 됐나")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574520164457)
+}

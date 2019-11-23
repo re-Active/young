@@ -1,0 +1,20 @@
+train (t-o7gie9lcu4eyedaaab1jhpumi) {
+  utterance ("[g:insureOutStructure] (보험)[v:insureInput] 추천")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525032367)
+}
+train (t-ocjfc65ivskc4zjuy8imd4kir) {
+  utterance ("[g:myInsureOutStructure] 내 (보험)[v:myInsureInput]")
+  plan (Y2Bm0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZVDCa5JnXkFpCQMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1574526505722)
+}
+train (t-ot9z3nce9s6vmpuu1fzokwxpe) {
+  utterance ("[g:bankOutStructure] 추천 (계좌)[v:bankInput] 정보 알려줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574519955157)
+}
+train (t-ox66fkd8wtnvemf6kiqjidzyb) {
+  utterance ("[g:bankOutStructure] 추천 (계좌)[v:bankInput] 띄워줘.")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574520010451)
+}

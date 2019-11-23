@@ -3,3 +3,8 @@ train (t-s9ax2s5jutdgs77511o1wddfo) {
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574514767797)
 }
+train (t-swzou5cso4c01xlgb67l1irom) {
+  utterance ("[g:cardInfoOutStructure] (내)[v:myInput] (카드)[v:cardInfoInput]")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL9y8tCS4pKk0uKS1KZZDFqtQZqpRBCa9JnnkFpSUMMljV5FZCZJkZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1574520333152)
+}

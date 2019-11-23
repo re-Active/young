@@ -1,0 +1,5 @@
+train (t-huhx041detifhlypgu6eggce9) {
+  utterance ("[g:cardInfoOutStructure] (나)[v:myInput]의 (카드)[v:cardInfoInput]")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL9y8tCS4pKk0uKS1KZZDFqtQZqpRBCa9JnnkFpSUMMljV5FZCZJkZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1574520652322)
+}

@@ -1,0 +1,5 @@
+train (t-gk7gxmusj87t5xuy1x8uebst1) {
+  utterance ("[g:bankOutStructure] 신상 (계좌)[v:bankInput] 뭐 있어")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574520110394)
+}

@@ -1,3 +1,8 @@
+train (t-72urn0yyrlgcu0qbuio8tsua6) {
+  utterance ("[g:insureOutStructure] 보장 잘해주는 (보험)[v:insureInput] 추천해줘")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525164165)
+}
 train (t-7639vljcydituxe3v06wcmg3m) {
   utterance ("[g:myBankOutStructure] (내)[v:myInput] (통장)[v:myBankInput] 불러봐")
   plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)

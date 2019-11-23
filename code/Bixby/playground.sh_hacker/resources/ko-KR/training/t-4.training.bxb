@@ -1,0 +1,10 @@
+train (t-4k2cbqqct7vebuft375zwsmi9) {
+  utterance ("[g:insureOutStructure] 보장 내용 좋은 (보험)[v:insureInput] 알려줘")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525190413)
+}
+train (t-4ysi1g6u73mf2nbdp6d8gzha9) {
+  utterance ("[g:cardOutStructure] 추천 (카드)[v:cardInput] 선정해 봐")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574519934815)
+}

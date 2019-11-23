@@ -1,10 +1,14 @@
 action (CardInfo) {
-  description (__DESCRIPTION__)
-  collect {
-    input (cardinfoinput) {
-      type (cardInfoInput)
-      min (Optional) max (One)
-    }
-  }
-  output (cardInfoOutStructure)
+	description (__DESCRIPTION__)
+	collect {
+		input (cardinfoinput) {
+			type (cardInfoInput)
+			min (Required) max (One)
+		}
+		input (myinput) {
+			type (myInput)
+			min (Required) max (One)
+		}
+	}
+	output (cardInfoOutStructure)
 }

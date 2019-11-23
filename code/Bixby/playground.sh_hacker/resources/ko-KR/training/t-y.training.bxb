@@ -6,7 +6,7 @@ train (t-yl90ok1zki0m3do231gi6zyxs) {
 train (t-yxrxrbnl2hr68e84k4yyk08yv) {
   utterance ("[g:cardOutStructure] (카드)[v:cardInput] 뭐로 바꾸지")
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
-  last-modified (1574514701198)
+  last-modified (1574520044556)
 }
 train (t-yyp97dpkqgrqmn9ihmakfxrj2) {
   utterance ("[g:myBankOutStructure] (내)[v:myInput] (통장)[v:myBankInput]")

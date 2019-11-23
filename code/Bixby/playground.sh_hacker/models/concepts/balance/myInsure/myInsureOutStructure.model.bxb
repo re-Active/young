@@ -4,8 +4,4 @@ structure (myInsureOutStructure) {
     type (myInsureSet)
     min (Optional) max (Many)
   }
-  property (recommend) {
-    type (recommend)
-    min (Optional) max (One)
-  }
 }

@@ -3,3 +3,8 @@ train (t-3imeaa5epnra5wob06ceur7mw) {
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574514914029)
 }
+train (t-3xatr5viwqxaxdvj4q8jhwlbj) {
+  utterance ("[g:insureOutStructure] (보험)[v:insureInput]")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574520938822)
+}

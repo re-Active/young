@@ -3,3 +3,8 @@ train (t-rrx6wtyjxwisrgt7v8hsmmoge) {
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574519123877)
 }
+train (t-rtbitsnh0bv27fienc6z7cv8v) {
+  utterance ("[g:cardOutStructure] 좋은 (카드)[v:cardInput] 좀 나왔나")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574520085482)
+}

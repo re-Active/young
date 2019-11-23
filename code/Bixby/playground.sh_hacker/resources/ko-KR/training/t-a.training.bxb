@@ -8,8 +8,18 @@ train (t-a9827iq9hd8fp3l55omh4xsl1) {
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574513803930)
 }
+train (t-aa64fqjgmvom1mzuetnpzc5w5) {
+  utterance ("[g:insureOutStructure] 신한생명 (보험)[v:insureInput] 뭐가 좋아")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525531779)
+}
+train (t-acu1xkn7i1p3j1mnrka03n77v) {
+  utterance ("[g:cardInfoOutStructure] (내)[v:myInput] (카드)[v:cardInfoInput] 혜택 보여줘")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL9y8tCS4pKk0uKS1KZZDFqtQZqpRBCa9JnnkFpSUMMljV5FZCZJkZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1574520518874)
+}
 train (t-aq6ddwyydu8ulqb6p7xh41oas) {
   utterance ("[g:myBankOutStructure] (계좌)[v:myBankInput]")
-  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDEwMjEDMACQZGUCACYIB)
-  last-modified (1574491565131)
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIYIJgAA==)
+  last-modified (1574520772786)
 }

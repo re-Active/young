@@ -1,0 +1,5 @@
+train (t-b5g7vxwmun3x26amip5o2zbpl) {
+  utterance ("[g:cardOutStructure] 신박한 (카드)[v:cardInput] 뭐가 있지")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574519900155)
+}

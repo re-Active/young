@@ -28,12 +28,6 @@ layout-macro-def (myBank-details){
 	content{
 		section{
 			content{
-				attribution-link{
-					label{
-						template ("가입하러가기")
-					}
-					url ("https://bank.shinhan.com/")
-				}
 				if (exists(deposit.accountno)){
 					hbox{
 						content{
@@ -55,11 +49,11 @@ layout-macro-def (myBank-details){
 								title-area {
 									halign (Start)
 									slot1 {
-image {
-                  shape (Circle)
-                  url("images/runes/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
-                }
-              }
+										text{
+											value{
+												template("계좌 정보 : #{value(deposi.accountno)}")
+											}
+										}
 									}
 									slot2 {
 										paragraph{

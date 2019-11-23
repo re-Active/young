@@ -1,5 +1,15 @@
+train (t-e23k08qasu31lrej5aq25wn3h) {
+  utterance ("[g:cardOutStructure] 추천할 만한 (카드)[v:cardInput] 좀 소개해줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574520145317)
+}
 train (t-exucml03sy3vznfwpf6qo1hg4) {
   utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 알려줘")
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574519144121)
+}
+train (t-ez9hcp8s5dqh43okcxd5csf11) {
+  utterance ("[g:insureOutStructure] 나에게 맞는 (보험)[v:insureInput] 추천해줘")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525105206)
 }

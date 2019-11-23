@@ -1,3 +1,8 @@
+train (t-l1loxt17l2woqzc2hikks1x4p) {
+  utterance ("[g:bankOutStructure] 좋은 (계좌)[v:bankInput] 알려줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574520029425)
+}
 train (t-l1r1fvz4qfve85aio2va2nq53) {
   utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 추천해 줘")
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
@@ -7,6 +12,16 @@ train (t-l2tuhm9i9zfskmwi7r19ikb71) {
   utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 보여줘")
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574513935023)
+}
+train (t-l9eh0hg3gbwa5zuriwn1gvwzm) {
+  utterance ("[g:insureOutStructure] 조건 좋은 (보험)[v:insureInput] 뭐있어")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0svMKy4tSvUvLQkuKSpNLgGyGaSxKvQEK2RQwGOKZ15BaQkDEwMjEDMASUYGEGCCYAA=)
+  last-modified (1574525135487)
+}
+train (t-lo46fpt8eb9fc2gw510idd4q6) {
+  utterance ("[g:cardInfoOutStructure] (나)[v:myInput]의 (카드)[v:cardInfoInput] 보여줘")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL9y8tCS4pKk0uKS1KZZDFqtQZqpRBCa9JnnkFpSUMMljV5FZCZJkZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1574520708427)
 }
 train (t-lvp6n559r64da6954fdhc36j7) {
   utterance ("[g:myBankOutStructure] (내)[v:myInput]가 (통장)[v:myBankInput] 뭐 쓰지")
