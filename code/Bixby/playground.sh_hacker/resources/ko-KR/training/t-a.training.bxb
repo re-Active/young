@@ -1,15 +1,15 @@
-train (t-aadr2b4drhra89cji2c1of42f) {
-  utterance ("[g:bankOutStructure] (은행)[v:bankInput] ")
+train (t-a0fm0tsp763ziokczyuaz1try) {
+  utterance ("[g:bankOutStructure] 추천 (계좌)[v:bankInput]")
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
-  last-modified (1574458671078)
+  last-modified (1574513833870)
+}
+train (t-a9827iq9hd8fp3l55omh4xsl1) {
+  utterance ("[g:bankOutStructure] (계좌)[v:bankInput]")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574513803930)
 }
 train (t-aq6ddwyydu8ulqb6p7xh41oas) {
   utterance ("[g:myBankOutStructure] (계좌)[v:myBankInput]")
   plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDEwMjEDMACQZGUCACYIB)
   last-modified (1574491565131)
-}
-train (t-awi9o9a4xwqpmrfjbwams7vko) {
-  utterance ("[g:myInsureOutStructure] (내 보험)[v:myInsureInput]")
-  plan (Y2Bm0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZVDCa5JnXkFpCQMTAyMQMwBJRgYQYIJgAA==)
-  last-modified (1574495902910)
 }

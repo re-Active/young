@@ -1,0 +1,5 @@
+train (t-exucml03sy3vznfwpf6qo1hg4) {
+  utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 알려줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574519144121)
+}

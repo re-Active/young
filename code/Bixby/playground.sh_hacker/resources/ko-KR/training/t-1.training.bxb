@@ -1,0 +1,10 @@
+train (t-19guy9s70xoh4jhylp4f95hpp) {
+  utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 정보 가 봅시다")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574515699769)
+}
+train (t-1gye8animz7ma9tie4oswj572) {
+  utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 추천")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574513822080)
+}

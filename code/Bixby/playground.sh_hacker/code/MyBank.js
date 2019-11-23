@@ -1,4 +1,4 @@
-module.exports.function = function mybank(mybankinput) {
+module.exports.function = function mybank(myinput, mybankinput) {
   const rec = require('./tools.js')
   const db = require('./fake/fakedb').bank
   const console = require('console')

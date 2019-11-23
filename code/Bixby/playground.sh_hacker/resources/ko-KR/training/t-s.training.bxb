@@ -1,0 +1,5 @@
+train (t-s9ax2s5jutdgs77511o1wddfo) {
+  utterance ("[g:cardOutStructure] 체크 (카드)[v:cardInput] 추천해봐")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514767797)
+}

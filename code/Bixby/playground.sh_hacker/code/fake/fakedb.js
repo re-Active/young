@@ -5,7 +5,7 @@ module.exports.bank = {
       rate: '1.9%',
       balance: 'cc',
       comments: {
-        url: '../../assets/green.png',
+        url: '../assets/green.png',
         comment: 'very good'
       }
     },

@@ -1,0 +1,10 @@
+train (t-pcr0g19hmngqlq9usxcomyzfp) {
+  utterance ("[g:myBankOutStructure] (나의)[v:myInput] (통장)[v:myBankInput]")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574514028646)
+}
+train (t-pnqcqnx80jwmdx6bn96kbo3o8) {
+  utterance ("[g:bankOutStructure] 신한은행 (계좌)[v:bankInput] 추천해줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574517330949)
+}

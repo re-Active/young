@@ -30,9 +30,9 @@ layout-macro-def (myBank-details){
 			content{
 				attribution-link{
 					label{
-						template ("click")
+						template ("가입하러가기")
 					}
-					url ("naver.com")
+					url ("https://bank.shinhan.com/")
 				}
 				if (exists(deposit.accountno)){
 					hbox{
@@ -55,11 +55,11 @@ layout-macro-def (myBank-details){
 								title-area {
 									halign (Start)
 									slot1 {
-										text{
-											value{
-												template("계좌 정보 : #{value(deposi.accountno)}")
-											}
-										}
+image {
+                  shape (Circle)
+                  url("images/runes/#{value(rune.runecat)}/#{value(rune.runename)}/#{value(rune.runename)}.png")
+                }
+              }
 									}
 									slot2 {
 										paragraph{

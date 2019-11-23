@@ -1,5 +1,0 @@
-train (t-m36jasw4xatv76fmif8cjztoy) {
-  utterance ("[g:cardInfoOutStructure] 내 카드 (정보)[v:cardInfoInput] 알려줘")
-  plan (Y2BiUCrISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxzEvL98wrKC1h0MSrxr+0JLikqDS5pLQolYGBgZGBCYiBAAA=)
-  last-modified (1574444321765)
-}

@@ -1,5 +1,5 @@
-train (t-3i2ioi8y41bmbn9hhcuqian0g) {
-  utterance ("[g:totalOutStructure] (전체)[v:totalInput]")
-  plan (Y2BmUCvISaxML8ovzUvRK86Iz0hMzk4t0ivJL0nM8S8tCS4pKk0uKS1KZZDCqi4EpI5BHrcZnnkFpSUMTAyMQMwAJBkZQIAJggE=)
-  last-modified (1574383908303)
+train (t-3imeaa5epnra5wob06ceur7mw) {
+  utterance ("[g:cardOutStructure] (카드)[v:cardInput] 추천해줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktOLErxLy0JLikqTS4pLUplkMSqzBmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574514914029)
 }

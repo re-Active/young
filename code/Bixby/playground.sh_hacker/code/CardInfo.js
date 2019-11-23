@@ -1,4 +1,4 @@
-module.exports.function = function cardinfo(cardinfoinput) {
+module.exports.function = function cardinfo(myinput, cardinfoinput) {
   const rec = require('./tools.js')
   const db = require('./fake/fakedb').cardinfo
   const console = require('console')

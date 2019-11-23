@@ -66,11 +66,11 @@ endpoints {
 		
 		
 		action-endpoint (MyBank) {
-			accepted-inputs (mybankinput)
+			accepted-inputs (myinput, mybankinput)
 			local-endpoint (MyBank.js)
 		}
 		action-endpoint (CardInfo) {
-			accepted-inputs (cardinfoinput)
+			accepted-inputs (myinput, cardinfoinput)
 			local-endpoint (CardInfo.js)
 		}
 		

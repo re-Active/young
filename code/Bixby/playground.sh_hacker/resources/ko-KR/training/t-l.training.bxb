@@ -1,5 +1,15 @@
-train (t-l8nwm08ok8xu4eccsjdos6gbu) {
-  utterance ("[g:myBankOutStructure] 내 (계좌 정보)[v:myBankInput]")
-  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDEwMjEDMACQZGUCACYIB)
-  last-modified (1574505179993)
+train (t-l1r1fvz4qfve85aio2va2nq53) {
+  utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 추천해 줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574513850749)
+}
+train (t-l2tuhm9i9zfskmwi7r19ikb71) {
+  utterance ("[g:bankOutStructure] (계좌)[v:bankInput] 보여줘")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574513935023)
+}
+train (t-lvp6n559r64da6954fdhc36j7) {
+  utterance ("[g:myBankOutStructure] (내)[v:myInput]가 (통장)[v:myBankInput] 뭐 쓰지")
+  plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)
+  last-modified (1574515517274)
 }
