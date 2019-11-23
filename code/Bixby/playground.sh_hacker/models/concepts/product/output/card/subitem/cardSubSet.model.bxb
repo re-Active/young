@@ -24,4 +24,8 @@ structure (cardSubSet) {
     type (description)
     min (Required) max (One)
     }
+  property (url) {
+    type (url)
+    min (Optional) max (One)
+    }
 }

@@ -11,7 +11,12 @@ layout-macro-def (credit-details){
 			content{
 				for-each (creditset){
 					as (credit) {
-						title-card {
+						image-card {
+							text-position (Below)
+							image-background-color (White)
+							image-object-fit (Cover)
+							aspect-ratio (16:9)
+							image-url ("#{value(credit.url)}")
 							title-area {
 								halign (Start)
 								slot1 {
@@ -25,13 +30,6 @@ layout-macro-def (credit-details){
 									paragraph {
 										value {
 											template ("#{value(credit.due)}")
-										}
-									}
-								}
-								slot3 {
-									paragraph {
-										value {
-											template ("#{value(credit.description)}")
 										}
 									}
 								}

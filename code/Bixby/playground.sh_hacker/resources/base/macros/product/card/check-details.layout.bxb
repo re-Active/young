@@ -11,27 +11,18 @@ layout-macro-def (check-details){
 			content{
 				for-each (checkset){
 					as (check) {
-						title-card {
+						image-card {
+							text-position (Below)
+							image-background-color (White)
+							image-object-fit (Cover)
+							aspect-ratio (16:9)
+							image-url ("#{value(check.url)}")
 							title-area {
 								halign (Start)
 								slot1 {
 									text {
 										value {
 											template ("#{value(check.name)}")
-										}
-									}
-								}
-								slot2 {
-									paragraph {
-										value {
-											template ("#{value(check.due)}")
-										}
-									}
-								}
-								slot3 {
-									paragraph {
-										value {
-											template ("#{value(check.description)}")
 										}
 									}
 								}
