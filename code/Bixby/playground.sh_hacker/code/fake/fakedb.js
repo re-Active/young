@@ -49,16 +49,18 @@ module.exports.card = [
   },
 ]
 
-module.exports.carduse = [
+module.exports.cardinfo = [
   {
     category: '체크카드',
     name: 'fakeCheck',
     cardno: '123-456-789',
+    carduseamt: '300,000'
   },
   {
     category: '신용카드',
     name: 'fakeCredit',
     cardno: '456-789-123',
+    carduseamt: '258,789'
   },
 ]
 

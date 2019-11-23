@@ -127,7 +127,7 @@ const cats = {
   // const cred = '주민등록번호'
   // const recommend = rec.recbank(cred)
   
-  cats.recommend = recommend
+  cats.recommend = ''
 
 
   return cats

@@ -1,7 +1,7 @@
 structure (cardInfoOutStructure) {
   description (__DESCRIPTION__)
-  property (cardinfoset){
-    type (cardInfoSet)
+  property (carduse){
+    type (cardSubSet)
     min (Optional) max (Many)
   }
   property (recommend) {

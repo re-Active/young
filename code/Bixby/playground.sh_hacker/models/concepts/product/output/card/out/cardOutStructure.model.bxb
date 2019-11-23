@@ -1,7 +1,11 @@
 structure (cardOutStructure) {
   description (__DESCRIPTION__)
-  property (cardset) {
-    type (cardSet)
+  // property (cardset) {
+  //   type (cardset)
+  //   min (Required) max (Many)
+  // }
+  property (credit) {
+    type (creditOutStructure)
     min (Required) max (Many)
   }
 } 
