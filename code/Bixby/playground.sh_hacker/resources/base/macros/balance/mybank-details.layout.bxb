@@ -22,7 +22,7 @@ layout-macro-def (myBank-details){
 		}
 		param (recommend) {
 			type (recommend)
-			min (Optional) max (One)
+			min (Optional) max (Many)
 		}
 	}
 	content{
@@ -32,7 +32,7 @@ layout-macro-def (myBank-details){
 					label{
 						template ("click")
 					}
-					url ("naver.com")
+					url ("https://bank.shinhan.com")
 				}
 				if (exists(deposit.accountno)){
 					hbox{
@@ -42,7 +42,7 @@ layout-macro-def (myBank-details){
 								valign (Middle)
 								content{
 									text{
-										value("deposit")
+										value("적금")
 										style(Title_M)
 									}
 								}
@@ -77,9 +77,35 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
+							hbox{
+								content{
+									vbox{
+										halign (Start)
+										content{
+											single-line{
+												image{
+													shape(Circle)
+													style(Title_S)
+													url("#{value(deposi.comments.url)}")
+												}
+											}
+										}
+									}
+									vbox{
+										halign (End)
+										content{
+											text{
+												value("#{value(deposi.comments.comment)}")
+												style(Title_S)
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
+				
 				if (exists(fund.accountno)){
 					hbox{
 						content{
@@ -88,7 +114,7 @@ layout-macro-def (myBank-details){
 								valign (Middle)
 								content{
 									text{
-										value("fund")
+										value("펀드")
 										style(Title_M)
 									}
 								}
@@ -123,6 +149,31 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
+							hbox{
+								content{
+									vbox{
+										halign (Start)
+										content{
+											single-line{
+												image{
+													shape(Circle)
+													style(Title_S)
+													url("#{value(fun.comments.url)}")
+												}
+											}
+										}
+									}
+									vbox{
+										halign (End)
+										content{
+											text{
+												value("#{value(fun.comments.comment)}")
+												style(Title_S)
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -134,7 +185,7 @@ layout-macro-def (myBank-details){
 								valign (Middle)
 								content{
 									text{
-										value("isa")
+										value("개인종합자산관리 계좌")
 										style(Title_M)
 									}
 								}
@@ -169,6 +220,31 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
+							hbox{
+								content{
+									vbox{
+										halign (Start)
+										content{
+											single-line{
+												image{
+													shape(Circle)
+													style(Title_S)
+													url("#{value(is.comments.url)}")
+												}
+											}
+										}
+									}
+									vbox{
+										halign (End)
+										content{
+											text{
+												value("#{value(is.comments.comment)}")
+												style(Title_S)
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -180,7 +256,7 @@ layout-macro-def (myBank-details){
 								valign (Middle)
 								content{
 									text{
-										value("loan")
+										value("대출")
 										style(Title_M)
 									}
 								}
@@ -215,6 +291,31 @@ layout-macro-def (myBank-details){
 									}
 								}
 							}
+							hbox{
+								content{
+									vbox{
+										halign (Start)
+										content{
+											single-line{
+												image{
+													shape(Circle)
+													style(Title_S)
+													url("#{value(loa.comments.url)}")
+												}
+											}
+										}
+									}
+									vbox{
+										halign (End)
+										content{
+											text{
+												value("#{value(loa.comments.comment)}")
+												style(Title_S)
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -226,7 +327,7 @@ layout-macro-def (myBank-details){
 								valign (Middle)
 								content{
 									text{
-										value("trust")
+										value("신탁")
 										style(Title_M)
 									}
 								}
@@ -257,6 +358,31 @@ layout-macro-def (myBank-details){
 										paragraph{
 											value{
 												template("이율 : #{value(trus.rate)}")
+											}
+										}
+									}
+								}
+							}
+							hbox{
+								content{
+									vbox{
+										halign (Start)
+										content{
+											single-line{
+												image{
+													shape(Circle)
+													style(Title_S)
+													url("#{value(trus.comments.url)}")
+												}
+											}
+										}
+									}
+									vbox{
+										halign (End)
+										content{
+											text{
+												value("#{value(trus.comments.comment)}")
+												style(Title_S)
 											}
 										}
 									}

@@ -11,24 +11,31 @@ layout-macro-def (accident-details){
 			content{
 				for-each (accidentset){
 					as (accident) {
+						hbox{
+						content{
+							vbox{
+								halign (Center)
+								valign (Middle)
+								content{
+									text{
+										value("#{value(accident.name)}")
+										style(Title_M)
+									}
+								}
+							}
+						}
+					}
 						title-card {
 							title-area {
 								halign (Start)
 								slot1 {
 									text {
 										value {
-											template ("#{value(accident.name)}")
-										}
-									}
-								}
-								slot2 {
-									paragraph {
-										value {
 											template ("#{value(accident.fee)}")
 										}
 									}
 								}
-								slot3 {
+								slot2 {
 									paragraph {
 										value {
 											template ("#{value(accident.description)}")
@@ -43,3 +50,5 @@ layout-macro-def (accident-details){
 		}
 	}
 }
+
+
