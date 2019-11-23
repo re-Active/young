@@ -15,6 +15,11 @@ structure (cardSubSet) {
     min (Optional) max (One)
   }
 
+  property (carduseamt) {
+    type (cardUseAmt)
+    min (Optional) max (One)
+  }
+
   property (description) {
     type (description)
     min (Required) max (One)

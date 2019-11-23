@@ -128,7 +128,12 @@ const cats = {
   // const cred = '주민등록번호'
   // const recommend = rec.recbank(cred)
   
+<<<<<<< HEAD
   cats.recommend = ['']
+=======
+  cats.recommend = ''
+
+>>>>>>> 1e328dea10bd2dba1cbb2f7105f0ae972d4b6374
 
   return cats
 }

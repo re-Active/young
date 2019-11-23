@@ -69,6 +69,6 @@ module.exports.function = function myInsure(myinsureinput) {
   
   return {
     myinsureset: myinsureset,
-    recommend: recommend
+    recommend: ''
   }
 }

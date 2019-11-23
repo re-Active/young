@@ -1,6 +1,10 @@
 structure (myInsureSet) {
 	description (__DESCRIPTION__)
+<<<<<<< HEAD
 	property (apaiCmltInpFe){
+=======
+	property (apaivmltinpFe){
+>>>>>>> 1e328dea10bd2dba1cbb2f7105f0ae972d4b6374
 		type(apaiCmltInpFe)
 		min (Optional) max (One)
 	}

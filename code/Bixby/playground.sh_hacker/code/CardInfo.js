@@ -1,6 +1,6 @@
 module.exports.function = function cardinfo(cardinfoinput) {
   const rec = require('./tools.js')
-  const db = require('./fake/fakedb').card
+  const db = require('./fake/fakedb').cardinfo
   const console = require('console')
   const http = require('http')
   const target = '/v1/mycard/searchavailablecard'
@@ -33,10 +33,10 @@ module.exports.function = function cardinfo(cardinfoinput) {
     cardinfoset.push(temp)
 
   }
-  const cred = '주민등록번호'
-  const recommend = rec.rec('카드', cred)
+  // const cred = '주민등록번호'
+  // const recommend = rec.rec('카드', cred)
   return {
     cardinfoset: cardinfoset,
-    recommend: recommend
+    recommend: ''
   }
 }
