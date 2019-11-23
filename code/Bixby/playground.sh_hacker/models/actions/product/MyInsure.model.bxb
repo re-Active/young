@@ -1,10 +1,14 @@
 action (MyInsure) {
-  description (__DESCRIPTION__)
-  collect {
-    input (myinsureinput) {
-      type (myInsureInput)
-      min (Optional) max (One)
-    }
-  }
-  output (myInsureOutStructure)
+	description (__DESCRIPTION__)
+	collect {
+		input (myinsureinput) {
+			type (myInsureInput)
+			min (Optional) max (One)
+		}
+		input (myinput) {
+			type (myInput)
+			min (Required) max (One)
+		}
+	}
+	output (myInsureOutStructure)
 }

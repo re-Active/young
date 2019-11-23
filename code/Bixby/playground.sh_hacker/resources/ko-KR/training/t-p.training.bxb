@@ -1,3 +1,8 @@
+train (t-p2j2u0j0lehueizzn29q6pqwq) {
+  utterance ("[g:myInsureOutStructure] (내)[v:myInput]가 가입한 (보험)[v:myInsureInput] 뭐 있었지")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZZDBaVJBaQmDEl57IGqYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1574529073385)
+}
 train (t-pcr0g19hmngqlq9usxcomyzfp) {
   utterance ("[g:myBankOutStructure] (나)[v:myInput]의 (통장)[v:myBankInput]")
   plan (Y2BhUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDDI4VEBkmRkYGZiAJAOQBkEIAPHBogA=)

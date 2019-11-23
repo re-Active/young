@@ -8,3 +8,8 @@ train (t-f1394jtsgrtkgc9x0e31ylps3) {
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574519982651)
 }
+train (t-fo116gee8cjffgnkqpxo15q24) {
+  utterance ("[g:bankOutStructure] 어떤 (계좌)[v:bankInput] 쓸까")
+  plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
+  last-modified (1574529304153)
+}

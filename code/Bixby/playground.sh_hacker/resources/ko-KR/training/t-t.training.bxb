@@ -1,0 +1,10 @@
+train (t-t54rs2ni5vh9casnxjsqdsz86) {
+  utterance ("[g:myInsureOutStructure] (나)[v:myInput]의 (보험)[v:myInsureInput]")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZZDBaVJBaQmDEl57IGqYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1574528871459)
+}
+train (t-tbud8h7x9jubn7xs0i0l3ieqq) {
+  utterance ("[g:myInsureOutStructure] (내)[v:myInput]가 든 (보험)[v:myInsureInput] 알려줘")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZZDBaVJBaQmDEl57IGqYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1574528963549)
+}

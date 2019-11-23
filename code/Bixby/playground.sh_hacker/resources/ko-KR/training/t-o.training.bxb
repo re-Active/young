@@ -4,9 +4,9 @@ train (t-o7gie9lcu4eyedaaab1jhpumi) {
   last-modified (1574525032367)
 }
 train (t-ocjfc65ivskc4zjuy8imd4kir) {
-  utterance ("[g:myInsureOutStructure] 내 (보험)[v:myInsureInput]")
-  plan (Y2Bm0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZVDCa5JnXkFpCQMTAyMQMwBJRgYQYIJgAA==)
-  last-modified (1574526505722)
+  utterance ("[g:myInsureOutStructure] (내)[v:myInput] (보험)[v:myInsureInput]")
+  plan (Y2Bh0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZZDBaVJBaQmDEl57IGqYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1574527250456)
 }
 train (t-ot9z3nce9s6vmpuu1fzokwxpe) {
   utterance ("[g:bankOutStructure] 추천 (계좌)[v:bankInput] 정보 알려줘")

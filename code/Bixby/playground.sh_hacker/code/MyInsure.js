@@ -25,8 +25,8 @@ module.exports.function = function myInsure(myinsureinput) {
   // const data = http.postUrl(url + target, params, { format: 'json' }).dataBody.retrieveCyberCstConMattCyberCstMattDTO["0"]
   const data = db
   // const detail = http.postUrl(url + target, params, { format: 'json' }).dataBody['InonNoEnsCt']
-  const n = data.length
-
+  // const n = data.length
+  console.log(db)
   return db
 
 }

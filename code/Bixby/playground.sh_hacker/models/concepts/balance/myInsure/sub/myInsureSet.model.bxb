@@ -14,7 +14,7 @@ structure (myInsureSet) {
 		min (Optional) max (One)
 	}
 	property (crisis) {
-		type (crisis1)
+		type (crisis)
 		min (Optional) max (One)
 	}
 	// property (crisis2) {

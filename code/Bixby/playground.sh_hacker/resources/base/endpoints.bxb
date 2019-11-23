@@ -81,7 +81,7 @@ endpoints {
 		
 		
 		action-endpoint (MyInsure) {
-			accepted-inputs (myinsureinput)
+			accepted-inputs (myinput, myinsureinput)
 			local-endpoint (MyInsure.js)
 		}
 		
