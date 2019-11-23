@@ -36,7 +36,7 @@ module.exports.carduse = function (category, cardno) {
   //   }
   //   cardbalanceset.push(temp)
   // }
-
+ 
   cardbalanceset = [
     {
       "aprvamt": '20,000',
@@ -55,4 +55,35 @@ module.exports.carduse = function (category, cardno) {
   return {
     cardbalanceset: cardbalanceset
   }
+}
+
+
+module.exports.recbank = function(cred) {
+  const res = "적금 비율이 평균보다 다소 높아요."
+  return res
+}
+
+module.exports.reccard = function(cred) {
+  const res = "신용카드보다는 체크카드를 더 사용해보세요."
+  return res
+}
+
+module.exports.recins = function(cred) {
+  const res = "보장성 보험을 줄이는 게 좋겠어요."
+  return res
+}
+
+module.exports.rec = function (target, cred) {
+  const rectools = require('./tools.js')
+
+  let res
+  if(target === "은행") {
+    res = rectools.recbank(cred)
+  } else if(target === "보험") {
+    res = rectools.recins(cred)
+  } else {
+    res = rectools.reccard(cred)
+  }
+
+  return res
 }

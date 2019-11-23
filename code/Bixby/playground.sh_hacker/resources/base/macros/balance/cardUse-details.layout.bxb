@@ -17,14 +17,14 @@ layout-macro-def (carduse-details){
 								slot1 {
 									text {
 										value {
-											template ("#{value(person.carduse)}")
+											template ("#{value(person.retlno)}")
 										}
 									}
 								}
 								slot2 {
 									paragraph {
 										value {
-											template ("#{value(person.cardusefor)}")
+											template ("#{value(person.aprvamt)}")
 										}
 									}
 								}

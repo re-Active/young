@@ -4,5 +4,9 @@ structure (cardInfoOutStructure) {
     type (cardInfoSet)
     min (Optional) max (Many)
   }
+  property (recommend) {
+    type (recommend)
+    min (Optional) max (One)
+  }
 }
  

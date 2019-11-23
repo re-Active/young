@@ -4,4 +4,8 @@ structure (balanceOutStructure) {
     type(balanceSet)
     min (Required) max (Many)
   }
+  property (recommend) {
+    type (recommend)
+    min (Optional) max (One)
+  }
 }

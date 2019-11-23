@@ -1,7 +1,7 @@
 train (t-i4ui3ie2bdm6ard5eg05tikwl) {
   utterance ("[g:cardUseOutStructure] (체크카드)[v:category] (번호)[v:cardNo]")
   plan (Y2Bh0CjISaxML8ovzUvRK86Iz0hMzk4t0ktOLEoJLU71Ly0JLikqTS4pLUplkMGq0hmikkEapzl++QyyOCRLUtPziyoZmBkYGZiAJAOQBkEIAPHBogA=)
-  last-modified (1574446432581)
+  last-modified (1574466665843)
 }
 train (t-ig92g6q3juq7szr8p50r284r5) {
   utterance ("[g:depositOutStructure] (예금)[v:bankInput]")

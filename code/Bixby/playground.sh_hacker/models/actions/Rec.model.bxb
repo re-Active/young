@@ -1,0 +1,14 @@
+action (Rec) {
+  description (__DESCRIPTION__)
+  collect {
+    input (target) {
+      type (target)
+      min (Optional) max (One)
+    }
+    input (cred) {
+      type (cred)
+      min (Optional) max (One)
+    }
+  }
+  output (recommend)
+}

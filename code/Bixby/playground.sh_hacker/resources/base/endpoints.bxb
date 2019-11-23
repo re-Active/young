@@ -56,15 +56,15 @@ endpoints {
 			accepted-inputs (regularinput)
 			local-endpoint (insure/Regular.js)
 		}
-
-
-
+		
+		
+		
 		action-endpoint (Total) {
 			accepted-inputs (totalinput)
 			local-endpoint (Total.js)
 		}
-
-
+		
+		
 		action-endpoint (Balance) {
 			accepted-inputs (balanceinput)
 			local-endpoint (Balance.js)
@@ -73,19 +73,23 @@ endpoints {
 			accepted-inputs (cardinfoinput)
 			local-endpoint (CardInfo.js)
 		}
-
+		
 		action-endpoint (CardUse) {
 			accepted-inputs (category, cardno)
 			local-endpoint (CardUse.js)
 		}
 		
-
+		
 		action-endpoint (MyInsure) {
 			accepted-inputs (myinsureinput)
 			local-endpoint (MyInsure.js)
 		}
-
-
+		
+		action-endpoint (Rec) {
+			accepted-inputs (target, cred)
+			local-endpoint (Rec.js)
+		}
+		
 		// action-endpoint (__ACTION_NAME__) {
 		//   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
 		//   remote-endpoint (__ENDPOINT_URL__) {

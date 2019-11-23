@@ -5,8 +5,8 @@ module.exports.function = function internet (internetinput) {
   const bank = http.getUrl(url, {format: 'json'})[1].item.insure
   console.log(bank)
   let internetset = []
-  for(i in bank['상해보험']) {
-    internetset.push(bank['상해보험'][i])
+  for(i in bank['인터넷보험']) {
+    internetset.push(bank['인터넷보험'][i])
   }
 
   return {

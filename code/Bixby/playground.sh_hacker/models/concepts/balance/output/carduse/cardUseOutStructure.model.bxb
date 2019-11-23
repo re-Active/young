@@ -4,4 +4,8 @@ structure (cardUseOutStructure) {
     type (cardUseSet)
     min (Optional) max (Many)
   }
+  property (recommend) {
+    type (recommend)
+    min (Optional) max (One)
+  }
 }

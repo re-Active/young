@@ -1,7 +1,11 @@
 structure (cardBalanceOutStructure) {
-  description (__DESCRIPTION__)
-  property (cardbalanceset) {
-    type (cardBalanceSet)
-    min (Optional) max (Many)
-  }
+	description (__DESCRIPTION__)
+	property (cardbalanceset) {
+		type (cardBalanceSet)
+		min (Optional) max (Many)
+	}
+	property (recommend) {
+		type (recommend)
+		min (Optional) max (One)
+	}
 }

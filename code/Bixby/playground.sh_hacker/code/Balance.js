@@ -1,4 +1,5 @@
 module.exports.function = function balance(balanceinput) {
+  const rec = require('./tools.js')
   const db = require('./fake/fakedb').bank
   const console = require('console')
   const http = require('http')
@@ -17,12 +18,15 @@ module.exports.function = function balance(balanceinput) {
     }
   }
   let data
+  console.log('aaa')
   try {
     data = http.postUrl(bankUrl + target, params, { format: 'json' }).dataBody["예금내역"]
   } catch(e) {
     console.log(e)
+    console.log('bbb')
   } finally {
     data = db
+    console.log('cc')
   }
 
   const catdict = {
@@ -43,8 +47,16 @@ module.exports.function = function balance(balanceinput) {
     balanceset.push(temp)
 
   }
+  console.log(balanceset)
+  console.log(rec)
+
+  const cred = '주민등록번호'
+  const recommend = rec.recbank(cred)
+  console.log(recommend)
+
 
   return {
-    balanceset: balanceset
+    balanceset: balanceset,
+    recommend: recommend
   }
 }

@@ -1,4 +1,6 @@
 module.exports.function = function myInsure(myinsureinput) {
+  const rec = require('./tools.js')
+  const tools = require('./tools.js')
   const db = require('./fake/fakedb').myinsure
   const console = require('console')
   const http = require('http')
@@ -29,8 +31,11 @@ module.exports.function = function myInsure(myinsureinput) {
   //   myinsureset.push(temp)
   // }
   myinsureset = db
+  const cred = '주민등록번호'
+  const recommend = rec.rec('보험', cred)
   
   return {
-    myinsureset: myinsureset
+    myinsureset: myinsureset,
+    recommend: recommend
   }
 }
