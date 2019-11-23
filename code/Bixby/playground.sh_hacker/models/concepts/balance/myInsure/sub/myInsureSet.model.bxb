@@ -1,6 +1,6 @@
 structure (myInsureSet) {
 	description (__DESCRIPTION__)
-	proeprty (apaiCmltInpFe){
+	property (apaiCmltInpFe){
 		type(apaiCmltInpFe)
 		min (Optional) max (One)
 	}

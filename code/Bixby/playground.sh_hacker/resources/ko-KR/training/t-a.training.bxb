@@ -3,3 +3,8 @@ train (t-aadr2b4drhra89cji2c1of42f) {
   plan (Y2BmUC3ISaxML8ovzUvRK86Iz0hMzk4t0ktKzMv2Ly0JLikqTS4pLUplkMSqzAmojEEOpwmeeQWlJQxMDIxAzAAkGRlAgAmCAQ==)
   last-modified (1574458671078)
 }
+train (t-aq6ddwyydu8ulqb6p7xh41oas) {
+  utterance ("[g:myBankOutStructure] (계좌)[v:myBankInput]")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1574491565131)
+}

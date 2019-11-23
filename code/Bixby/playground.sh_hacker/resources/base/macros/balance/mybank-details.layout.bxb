@@ -1,0 +1,272 @@
+layout-macro-def (myBank-details){
+	params{
+		param (deposit){
+			type(deposit)
+			min (Optional) max (Many)
+		}
+		param (fund){
+			type(fund)
+			min (Optional) max (Many)
+		}
+		param (isa){
+			type(isa)
+			min (Optional) max (Many)
+		}
+		param (loan){
+			type(loan)
+			min (Optional) max (Many)
+		}
+		param (trust){
+			type(trust)
+			min (Optional) max (Many)
+		}
+		param (recommend) {
+			type (recommend)
+			min (Optional) max (One)
+		}
+	}
+	content{
+		section{
+			content{
+				if (exists(deposit.accountno)){
+					hbox{
+						content{
+							vbox{
+								halign (Center)
+								valign (Middle)
+								content{
+									text{
+										value("deposit")
+										style(Title_M)
+									}
+								}
+							}
+						}
+					}
+					for-each (deposit) {
+						as (deposi) {
+							title-card{
+								title-area {
+									halign (Start)
+									slot1 {
+										text{
+											value{
+												template("계좌 정보 : #{value(deposi.accountno)}")
+											}
+										}
+									}
+									slot2 {
+										paragraph{
+											value{
+												template("이율 : #{value(deposi.rate)}")
+											}
+										}
+									}
+									slot3 {
+										paragraph{
+											value{
+												template("잔액 : #{value(deposi.balance)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(fund.accountno)){
+					hbox{
+						content{
+							vbox{
+								halign (Center)
+								valign (Middle)
+								content{
+									text{
+										value("fund")
+										style(Title_M)
+									}
+								}
+							}
+						}
+					}
+					for-each (fund) {
+						as (fun) {
+							title-card{
+								title-area {
+									halign (Start)
+									slot1 {
+										text{
+											value{
+												template("계좌 정보 : #{value(fun.accountno)}")
+											}
+										}
+									}
+									slot2 {
+										paragraph{
+											value{
+												template("이율 : #{value(fun.rate)}")
+											}
+										}
+									}
+									slot3 {
+										paragraph{
+											value{
+												template("이율 : #{value(fun.rate)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(isa.accountno)){
+					hbox{
+						content{
+							vbox{
+								halign (Center)
+								valign (Middle)
+								content{
+									text{
+										value("isa")
+										style(Title_M)
+									}
+								}
+							}
+						}
+					}
+					for-each (isa) {
+						as (is) {
+							title-card{
+								title-area {
+									halign (Start)
+									slot1 {
+										text{
+											value{
+												template("계좌 정보 : #{value(is.accountno)}")
+											}
+										}
+									}
+									slot2 {
+										paragraph{
+											value{
+												template("이율 : #{value(is.rate)}")
+											}
+										}
+									}
+									slot3 {
+										paragraph{
+											value{
+												template("이율 : #{value(is.rate)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(loan.accountno)){
+					hbox{
+						content{
+							vbox{
+								halign (Center)
+								valign (Middle)
+								content{
+									text{
+										value("loan")
+										style(Title_M)
+									}
+								}
+							}
+						}
+					}
+					for-each (loan) {
+						as (loa) {
+							title-card{
+								title-area {
+									halign (Start)
+									slot1 {
+										text{
+											value{
+												template("계좌 정보 : #{value(loa.accountno)}")
+											}
+										}
+									}
+									slot2 {
+										paragraph{
+											value{
+												template("이율 : #{value(loa.rate)}")
+											}
+										}
+									}
+									slot3 {
+										paragraph{
+											value{
+												template("이율 : #{value(loa.rate)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(trust.accountno)){
+					hbox{
+						content{
+							vbox{
+								halign (Center)
+								valign (Middle)
+								content{
+									text{
+										value("trust")
+										style(Title_M)
+									}
+								}
+							}
+						}
+					}
+					
+					for-each (trust) {
+						as (trus) {
+							title-card{
+								title-area {
+									halign (Start)
+									slot1 {
+										text{
+											value{
+												template("계좌 정보 : #{value(trus.accountno)}")
+											}
+										}
+									}
+									slot2 {
+										paragraph{
+											value{
+												template("이율 : #{value(trus.rate)}")
+											}
+										}
+									}
+									slot3 {
+										paragraph{
+											value{
+												template("이율 : #{value(trus.rate)}")
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(recommend)){
+					paragraph{
+						value{
+							template("#{recommend})")
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,27 +1,27 @@
 structure (myBankOutStructure) {
   description (__DESCRIPTION__)
-  property (balanceset){
+  property (deposit){
     type(deposit)
-    min (Required) max (Many)
+    min (Optional) max (Many)
   }
   property (fund){
     type(fund)
-    min (Required) max (Many)
+    min (Optional) max (Many)
   }
   property (isa){
     type(isa)
-    min (Required) max (Many)
+    min (Optional) max (Many)
   }
   property (loan){
     type(loan)
-    min (Required) max (Many)
+    min (Optional) max (Many)
   }
   property (trust){
     type(trust)
-    min (Required) max (Many)
+    min (Optional) max (Many)
   }
   property (recommend) {
     type (recommend)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 }

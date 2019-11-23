@@ -1,0 +1,27 @@
+result-view{
+	match : myBankOutStructure (this)
+	render{
+
+		layout-macro (myBank-details){
+			
+			param (deposit){
+				expression (deposit)
+			}
+			param (fund){
+				expression (fund)
+			}
+			param (isa){
+				expression (isa)
+			}
+			param (loan){
+				expression (loan)
+			}
+			param (trust){
+				expression (trust)
+			}
+			param (recommend){
+				expression (recommend)
+			}
+		}
+	}
+}
