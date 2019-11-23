@@ -16,59 +16,45 @@ module.exports.function = function myInsure(myinsureinput) {
   }
   const detail_params = {
     "dataHeader": {
-
     },
     "dataBody": {
       "totCn": "0", "inqrSc": "1", "inonNo": "WmokLBDCO9/yfihlYoJFyg=="
     }
   }
 
-  const data = http.postUrl(url + target, params, { format: 'json' }).dataBody.retrieveCyberCstConMattCyberCstMattDTO["0"]
-  const detail = http.postUrl(url + target, params, { format: 'json' }).dataBody['InonNoEnsCt']
-  const n = data.inocnt
+  // const data = http.postUrl(url + target, params, { format: 'json' }).dataBody.retrieveCyberCstConMattCyberCstMattDTO["0"]
+  const data = db
+  // const detail = http.postUrl(url + target, params, { format: 'json' }).dataBody['InonNoEnsCt']
+  const n = data.length
 
 
-  let cri1 = 0
-  let cri2 = 0
-  let cri3 = 0
+  // let cri1 = 120
+  // let cri2 = 150
+  // let cri3 = 180
 
 
-  let myins = []
-  for (i = 0; i < n; i++) {
-    try {
-      const innono = data[i].intyNm
-      for (j in detail) {
-        if ("뇌" in detail[j] || "심근" in detail[j]) {
-          cri1 += detail[j].furAmSent
-        } else if ("암" in detail[j]) {
-          cri2 += detail[j].furAmSent
-        } else {
-          cri3 += detail[j].furAmSent
-        }
-      }
-    } catch (e) {
-      console.log(e)
-    } finally {
-      myins = db
-    }
-  }
-  // for(i in data){
-  //   temp = {
-  //     apaicnltnpfe: data.apaicnltnpfe,
-  //     ccramam: data.ccramama,
-  //     coornm: data.coornm,
-  //     eprtinsam: data.eprtinsam,
-  //     etncymd: data.etncymd,
-  //     inonno: data.inonno,
-  //     intynm: data.intynm,
-  //     mnnpnm: data.mnnpnm,
+  // let myins = db
+  // for (i = 0; i < n; i++) {
+  //   try {
+  //     const innono = data[i].intyNm
+  //     for (j in detail) {
+  //       if ("뇌" in detail[j] || "심근" in detail[j]) {
+  //         cri1 += detail[j].furAmSent
+  //       } else if ("암" in detail[j]) {
+  //         cri2 += detail[j].furAmSent
+  //       } else {
+  //         cri3 += detail[j].furAmSent
+  //       }
+  //     }
+  //   } catch (e) {
+  //     console.log(e)
+  //   } finally {
+  //     myinsureset = db
   //   }
-  //   myinsureset.push(temp)
   // }
-  myinsureset = db
-  
+
   return {
-    myinsureset: myinsureset,
-    recommend: ''
+    myinsureset: db,
+    recommend: ['']
   }
 }

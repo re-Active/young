@@ -1,10 +1,6 @@
 structure (myInsureSet) {
 	description (__DESCRIPTION__)
-<<<<<<< HEAD
-	property (apaiCmltInpFe){
-=======
-	property (apaivmltinpFe){
->>>>>>> 1e328dea10bd2dba1cbb2f7105f0ae972d4b6374
+	property (apaicmltinpfe){
 		type(apaiCmltInpFe)
 		min (Optional) max (One)
 	}
@@ -17,5 +13,20 @@ structure (myInsureSet) {
 		type (intynm)
 		min (Optional) max (One)
 	}
-	
+	property (crisis) {
+		type (crisis1)
+		min (Optional) max (One)
+	}
+	// property (crisis2) {
+	// 	type (crisis2)
+	// 	min (Optional) max (One)
+	// }
+	// property (crisis3) {
+	// 	type (crisis3)
+	// 	min (Optional) max (One)
+	// }
+	property (description){
+		type(description)
+		min (Optional) max (One)
+	}
 }

@@ -1,0 +1,5 @@
+train (t-l8nwm08ok8xu4eccsjdos6gbu) {
+  utterance ("[g:myBankOutStructure] 내 (계좌 정보)[v:myBankInput]")
+  plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDEwMjEDMACQZGUCACYIB)
+  last-modified (1574505179993)
+}

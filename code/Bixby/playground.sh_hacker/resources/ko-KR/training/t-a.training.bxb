@@ -8,3 +8,8 @@ train (t-aq6ddwyydu8ulqb6p7xh41oas) {
   plan (Y2BmUC/ISaxML8ovzUvRK86Iz0hMzk4t0sutdErMy/YvLQkuKSpNLiktSmWQxqrQF6yQQQGPKZ55BaUlDEwMjEDMACQZGUCACYIB)
   last-modified (1574491565131)
 }
+train (t-awi9o9a4xwqpmrfjbwams7vko) {
+  utterance ("[g:myInsureOutStructure] (내 보험)[v:myInsureInput]")
+  plan (Y2Bm0CzISaxML8ovzUvRK86Iz0hMzk4t0sut9MwrLi1K9S8tCS4pKk0uAbIZZLEq9YUqZVDCa5JnXkFpCQMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1574495902910)
+}

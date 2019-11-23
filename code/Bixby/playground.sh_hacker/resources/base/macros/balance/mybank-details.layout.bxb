@@ -28,6 +28,12 @@ layout-macro-def (myBank-details){
 	content{
 		section{
 			content{
+				attribution-link{
+					label{
+						template ("click")
+					}
+					url ("naver.com")
+				}
 				if (exists(deposit.accountno)){
 					hbox{
 						content{

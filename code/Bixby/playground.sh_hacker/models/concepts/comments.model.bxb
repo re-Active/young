@@ -1,0 +1,11 @@
+structure (comments) {
+	description (__DESCRIPTION__)
+	property (url) {
+		type (url)
+		min (Optional) max (One)
+	}
+	property (comment) {
+		type (comment)
+		min (Optional) max (One)
+	}
+}

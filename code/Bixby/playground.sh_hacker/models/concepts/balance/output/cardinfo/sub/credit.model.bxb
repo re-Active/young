@@ -1,0 +1,15 @@
+structure (credit) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (name)
+    min (Optional) max (One)
+  }
+  property (cardno) {
+    type (cardNo)
+    min (Optional) max (One)
+  }
+  property (inc) {
+    type (inc)
+    min (Optional) max (One)
+  }
+}

@@ -1,12 +1,12 @@
 structure (cardInfoOutStructure) {
   description (__DESCRIPTION__)
-  property (carduse){
-    type (cardSubSet)
+  property (debit){
+    type (debit)
     min (Optional) max (Many)
   }
-  property (recommend) {
-    type (recommend)
-    min (Optional) max (One)
+  property (credit) {
+    type (credit)
+    min (Optional) max (Many)
   }
 }
  

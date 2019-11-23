@@ -21,7 +21,7 @@ structure (myBankOutStructure) {
     min (Optional) max (Many)
   }
   property (recommend) {
-    type (recommend)
-    min (Optional) max (One)
+    type (comments)
+    min (Optional) max (Many)
   }
 }
