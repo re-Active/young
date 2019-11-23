@@ -6,6 +6,6 @@ structure (balanceOutStructure) {
   }
   property (recommend) {
     type (recommend)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
 }

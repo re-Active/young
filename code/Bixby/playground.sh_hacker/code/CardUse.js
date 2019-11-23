@@ -14,6 +14,6 @@ module.exports.function = function cardUse (category, cardno) {
   const recommend = rec.rec('카드', cred)
   return {
     carduseset: carduseset,
-    reccomend: recommend
+    recommend: recommend
   }
 }
