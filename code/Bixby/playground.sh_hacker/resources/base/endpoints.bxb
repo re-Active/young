@@ -65,9 +65,9 @@ endpoints {
 		}
 		
 		
-		action-endpoint (Balance) {
-			accepted-inputs (balanceinput)
-			local-endpoint (Balance.js)
+		action-endpoint (MyBank) {
+			accepted-inputs (mybankinput)
+			local-endpoint (MyBank.js)
 		}
 		action-endpoint (CardInfo) {
 			accepted-inputs (cardinfoinput)

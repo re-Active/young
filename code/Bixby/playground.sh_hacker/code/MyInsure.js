@@ -4,19 +4,54 @@ module.exports.function = function myInsure(myinsureinput) {
   const db = require('./fake/fakedb').myinsure
   const console = require('console')
   const http = require('http')
-  const target = '/v1/contract/list'
+  var target = '/v1/contract/list'
   const url = 'http://10.3.17.61:8083'
+  const detail_target = '/v1/contract/coverage'
   const params = {
     "dataHeader": {
-
     },
     "dataBody": {
       "rdreNo": "WmokLBDCO9/yfihlYoJFyg=="
     }
   }
-  // const data = http.postUrl(url + target, params, { format: 'json' }).dataBody.retrieveCyberCstConMattCyberCstMattDTO["0"]
+  const detail_params = {
+    "dataHeader": {
 
-  let myinsureset = []
+    },
+    "dataBody": {
+      "totCn": "0", "inqrSc": "1", "inonNo": "WmokLBDCO9/yfihlYoJFyg=="
+    }
+  }
+
+  const data = http.postUrl(url + target, params, { format: 'json' }).dataBody.retrieveCyberCstConMattCyberCstMattDTO["0"]
+  const detail = http.postUrl(url + target, params, { format: 'json' }).dataBody['InonNoEnsCt']
+  const n = data.inocnt
+
+
+  let cri1 = 0
+  let cri2 = 0
+  let cri3 = 0
+
+
+  let myins = []
+  for (i = 0; i < n; i++) {
+    try {
+      const innono = data[i].intyNm
+      for (j in detail) {
+        if ("뇌" in detail[j] || "심근" in detail[j]) {
+          cri1 += detail[j].furAmSent
+        } else if ("암" in detail[j]) {
+          cri2 += detail[j].furAmSent
+        } else {
+          cri3 += detail[j].furAmSent
+        }
+      }
+    } catch (e) {
+      console.log(e)
+    } finally {
+      myins = db
+    }
+  }
   // for(i in data){
   //   temp = {
   //     apaicnltnpfe: data.apaicnltnpfe,
@@ -31,8 +66,6 @@ module.exports.function = function myInsure(myinsureinput) {
   //   myinsureset.push(temp)
   // }
   myinsureset = db
-  const cred = '주민등록번호'
-  const recommend = rec.rec('보험', cred)
   
   return {
     myinsureset: myinsureset,

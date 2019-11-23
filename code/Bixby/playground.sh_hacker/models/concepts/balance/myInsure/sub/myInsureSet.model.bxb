@@ -1,0 +1,17 @@
+structure (myInsureSet) {
+	description (__DESCRIPTION__)
+	proeprty (apaiCmltInpFe){
+		type(apaiCmltInpFe)
+		min (Optional) max (One)
+	}
+	property (eprtinsam) {
+		type (eprtInsAm)
+		min (Optional) max (One)
+	}
+	// 점수뽑아내는 로직
+	property (intynm) {
+		type (intynm)
+		min (Optional) max (One)
+	}
+	
+}

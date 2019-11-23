@@ -1,0 +1,15 @@
+structure (fund) {
+  description (__DESCRIPTION__)
+  property (accountno) {
+    type (accountNo)
+    min (Optional) max (One)
+  }
+  property (rate) {
+    type (rate)
+    min (Optional) max (One)
+  }
+  property (balance) {
+    type (balance)
+    min (Optional) max (One)
+  }
+}
